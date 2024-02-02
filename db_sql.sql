@@ -1,0 +1,29 @@
+
+CREATE TABLE "Types" (
+	"Id"	INTEGER NOT NULL UNIQUE,
+	"Type"	TEXT NOT NULL,
+	PRIMARY KEY("Id")
+);
+
+INSERT INTO Types(Id, Type) VALUES (1, 'verb');
+
+
+CREATE TABLE "Words" (
+	"Id"	INTEGER NOT NULL UNIQUE,
+	"Word"	TEXT NOT NULL,
+	"TypeId"	INTEGER NOT NULL,
+	"Artikl"	TEXT,
+	PRIMARY KEY("Id" AUTOINCREMENT),
+	FOREIGN KEY("TypeId") REFERENCES "Types"("Id")
+);
+
+
+CREATE TABLE "Verbs" (
+	"Id"	INTEGER NOT NULL,
+	"WordId"	INTEGER NOT NULL,
+	"Prasens"	TEXT NOT NULL,
+	"Prateritum"	TEXT NOT NULL,
+	"Perfekt"	TEXT NOT NULL,
+	PRIMARY KEY("Id" AUTOINCREMENT),
+	FOREIGN KEY("WordId") REFERENCES "Words"("Id")
+);
