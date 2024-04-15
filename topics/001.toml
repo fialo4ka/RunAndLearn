@@ -1,0 +1,70 @@
+################
+# 1 #
+################
+
+[[word]]
+ru = "начало"
+de = "der Anfang"
+syn = ""
+[[word.ex]]
+de = "der Anfang der Weltgeschichte"
+ru = "начало мировой истории"
+[[word.ex]]
+de = "von Anfang bis Ende "
+ru = "от начала до конца"
+[[word.ex]]
+de = "einen neuen Anfang machen"
+ru = "начать заново"
+[[word.ex]]
+de = "der Anfang der Erzählung, der Vorlesung war ziemlich unklar"
+ru = "Начало рассказа было совершенно неясным"
+[[word.ex]]
+de = "Anfang des Monats"
+ru = "начало месяца"
+[[word.ex]]
+de = "der Anfang einer Straße"
+ru = " начало улицы"
+
+[[word]]
+ru = "начинать"
+de = "anfangen"
+syn = ""
+[word.kon]
+"pres" = "er fängt an"
+"prat" = "er fing an"
+"perfekt" = "hat angefangen"
+[[word.ex]]
+de = "neues Leben anfangen"
+ru = "начать новую жизнь"
+[[word.ex]]
+de = "der Unterricht fing um halb neun an"
+ru = "урок начался в полдевятого"
+[[word.ex]]
+de = "das Wort fängt mit p an"
+ru = "слово начинается с буквы п"
+
+[[word]]
+ru = "конец"
+de = "der Abschluss"
+syn = ""
+[[word.ex]]
+de = "der Abschluss der Arbeiten"
+ru = "завершение работы"
+[[word.ex]]
+de = "nach Abschluss des Studiums"
+ru = "после окончания учебы"
+
+[[word]]
+syn = ""
+ru = "перестать, заканчивать, прекратить"
+de = "aufhören"
+[word.kon]
+"pres" = "er hört auf"
+"prat" = "er hörte auf"
+"perfekt" = "hat aufgehört"
+[[word.ex]]
+de = "der Regen hat aufgehört"
+ru = "дождь прекратился"
+[[word.ex]]
+de = "ich habe mit dem Rauchen aufgehört"
+ru = "я бросил курить"

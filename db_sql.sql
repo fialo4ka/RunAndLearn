@@ -6,7 +6,8 @@ CREATE TABLE "Types" (
 );
 
 INSERT INTO Types(Id, Type) VALUES (1, 'verb');
-
+INSERT INTO Types(Id, Type) VALUES (2, 'nomen');
+INSERT INTO Types(Id, Type) VALUES (3, 'nun');
 
 CREATE TABLE "Words" (
 	"Id"	INTEGER NOT NULL UNIQUE,

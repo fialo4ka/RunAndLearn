@@ -90,7 +90,6 @@ steht auf,
 ist aufgestanden
 der Aufzug,  ̈-e
 das Auge, -n
-
 aus
 der Ausflug,  ̈-e
 ausfüllen,
@@ -101,7 +100,6 @@ ausgeben,
 gibt aus,
 hat ausgegeben
 ausgehen,
-
 geht aus,
 ist ausgegangen
 die Auskunft,  ̈-e
@@ -305,7 +303,6 @@ Klub, -s
 der/das Comic, -s
 der Computer, -
 die Creme, -s/-n
-
 da
 da(r) (Bsp. darauf, darüber)
 dabei (sein),
@@ -424,7 +421,6 @@ entschuldigt,
 hat entschuldigt
 die Entschuldi-
 gung, -en
-
 das Erdgeschoss,-e 
 die Erfahrung, -en 
 erinnern (sich),
@@ -464,7 +460,6 @@ der Fahrplan,  ̈-e
 das (Fahr)Rad,  ̈-er 
 fallen, fällt,
 ist gefallen
-
 falsch
 die Familie, -n
 der Familien-
@@ -695,12 +690,11 @@ der Hund, -e
 der Hunger (Sg.)
 husten, hustet,
 hat gehustet
-
 die Idee, -n
 immer
 in
 informieren (sich) (über),
- informieren.
+informieren.
 informiert,
 hat informiert
 die Insel, -n
@@ -708,13 +702,11 @@ intelligent
 das Interesse, -n
 interessieren (sich), 
 interessiert,
- 
 hat interessiert
 interessant
  international
 das Internet (Sg.)
 das Interview, -s
-
 ja
 die Jacke, -n
 die Jeans (Pl.)
@@ -820,7 +812,8 @@ lang
 lange
 langsam
 langweilig
-der/das Laptop, -slassen, lässt,
+der/das Laptop, -slassen, 
+lässt,
 hat gelassen
 laufen, läuft,
 ist gelaufen
@@ -902,8 +895,15 @@ die Milch (Sg.)
 mindestens
 das Mineral-
 wasser (Sg.)
-mit (+ mitbringen/-kommen/-machen/-nehmen/-spielen)der Mitarbeiter, -
-das Mittagessen, -die Mitte, -n
+mit 
+mitbringen
+mitkommen
+mitmachen
+mitnehmen
+mitspielen
+der Mitarbeiter, -
+das Mittagessen, 
+die Mitte, -n
 das Mittel, -
 die Möbel (Pl.)
 das Mobil-
@@ -1105,7 +1105,6 @@ rufen, ruft,
 hat gerufen
 die Ruhe (Sg.)
 ruhig
-
 rund
 der Rundgang,  ̈-e
 die Sache, -n
@@ -1277,25 +1276,20 @@ bahn, -en
 streiten (sich),
 streitet,
 hat gestritten
-
 streng
 der Stress (Sg.)
 stressig
 das Stück, -e
-
 der Student, -en,
 die Studentin, -nen
 studieren,
-
 studiert,
 hat studiert
 das Studium (Sg.)
 der Stuhl,  ̈-e
 suchen, sucht,
-
 hat gesucht
 super
-
 der Supermarkt,  ̈-e 
 die Suppe, -n
 surfen, surft,
@@ -1303,7 +1297,6 @@ hat/ist gesurft
 süß
 die Süßigkeiten
 sympathisch
-
 das Tablet, -s
 die Tablette, -n
 die Tafel, -n
@@ -1405,12 +1398,10 @@ zieht sich um,
 zog sich um,
 hat sich umgezogen
 der Umzug,  ̈-e
-
 unbedingt
 und
 der Unfall,  ̈-e
 unten
-
 unter
 unterhält,
 hat unterhalten
@@ -1425,16 +1416,13 @@ unterschreibt,
 hat unterschrieben
 die Unterschrift,-en 
 untersuchen,
-
 untersucht,
-
 hat untersucht
 unterwegs sein,
 ist unterwegs,
 war unterwegs,
 ist unterwegs gewesen
 der Urlaub, -e
- 
 verabredet sein,
 ist verabredet,
 war verabredet,
@@ -1542,10 +1530,13 @@ wecken,
 weckt,
 hat geweckt
 weg/weg-
-(wegbringen/
--fahren/-gehen/
--laufen/-machen/
--nehmen/-werfen)
+wegbringen
+wegfahren
+weggehen
+weglaufen
+wegmachen
+wegnehmen
+wegwerfen
 der Weg, -e
 wegen
 wehtun,
@@ -1559,8 +1550,8 @@ weinen, weint,
 hat geweint
 weit
 weiter
-(z. B. weiter-
-machen/-helfen)
+weitermachen
+weiterhelfen
 welcher, -e, -s
 die Welt, -en
 wenig, -e
@@ -1572,7 +1563,7 @@ ist geworden
 die Werkstatt,  ̈-en 
 der Wettbewerb, -e 
 das Wetter (Sg.)
- wichtig
+wichtig
 wie
 wie viel, -e
 wieder
@@ -1608,7 +1599,6 @@ wunderbar
 der Wunsch,  ̈-e
 wünschen
 die Wurst,  ̈-e
-
 die Zahl, -en
 zahlen, zahlt,
 hat gezahlt
@@ -1646,32 +1636,10 @@ zumachen,
 macht zu,
 hat zugemacht
 zurück
-zurück-
-(fahren, geben,
-gehen, kommen,
-laufen)
+zurückfahren
+zurückgeben
+zurückgehen
+zurückkommen
+zurücklaufen
 zusammen
 zwischen
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

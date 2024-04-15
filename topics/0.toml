@@ -1,0 +1,27 @@
+################
+# 1 #
+################
+
+[[word]]
+ru = ""
+de = ""
+syn = ""
+[[word.ex]]
+de = ""
+ru = ""
+[[word.ex]]
+de = ""
+ru = ""
+[[word.ex]]
+de = ""
+ru = ""
+
+
+
+[word.kon]
+"pres" = ""
+"prat" = ""
+"perfekt" = ""
+
+
+
