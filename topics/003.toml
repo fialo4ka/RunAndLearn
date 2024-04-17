@@ -1,0 +1,126 @@
+################
+# 3 #
+################
+[[word]]
+ru = "память, способность запоминать"
+de = "das Gedächtnis"
+[[word.ex]]
+de = "mein Gedächtnis lässt nach, lässt mich oft im Stich"
+ru = "моя память ухудшилась и часто меня подводит"
+[[word.ex]]
+de = "wenn mich mein Gedächtnis nicht täuscht, war es so"
+ru = "Если мне не изменяет память, то так оно и было"
+[[word.ex]]
+de = " das Gedächtnis verlieren"
+ru = "потерять память"
+[[word.ex]]
+de = "ein Gedächtnis wie ein Sieb haben"
+ru = "иметь память как решето (в просторечии: быть очень забывчивым)"
+[[word.ex]]
+de = "ein Gedächtnis wie ein Elefant haben "
+ru = "иметь память как у слона, очень хорошая память, запомнить надолго"
+
+[[word]]
+ru = "воспоминание, память"
+de = "die Erinnerung"
+syn = "das Andenken"
+[[word.ex]]
+de = "wenn mich meine Erinnerung nicht täuscht"
+ru = "если меня не обманывает память"
+[[word.ex]]
+de = "etwas gut in Erinnerung haben"
+ru = "запомнить что-то хорошо"
+[[word.ex]]
+de = "alte Erinnerungen auffrischen"
+ru = "  освежить старые воспоминания"
+[[word.ex]]
+de = "nach meiner Erinnerung nach war das ganz anders"
+ru = "По моим воспоминаниям все было совсем по-другому"
+[[word.ex]]
+de = " behalte mich in freundlicher Erinnerung"
+ru = "вспоминай меня с любовью"
+[[word.ex]]
+de = "zur Erinnerung an meine Mutter"
+ru = "в память о моей маме"
+
+[[word]]
+ru = "прошлое"
+de = "die Vergangenheit"
+syn = "frühere Zeiten"
+[[word.ex]]
+de = "Vergangenheit, Gegenwart und Zukunft"
+ru = "Прошлое, настоящее и будущее"
+[[word.ex]]
+de = "die jüngste Vergangenheit"
+ru = "недавнее прошлое"
+[[word.ex]]
+de = "die Historiker erforschen die Vergangenheit"
+ru = "историки изучают прошлое"
+[[word.ex]]
+de = "aus den Fehlern der Vergangenheit lernen"
+ru = "учиться на ошибках прошлого"
+[[word.ex]]
+de = "eine Frau mit Vergangenheit"
+ru = "женщина, у которой было несколько любовных связей"
+
+
+[[word]]
+ru = "мышление"
+de = "das Denken"
+[[word.ex]]
+de = "positives Denken"
+ru = "позитивное мышление "
+
+[[word]]
+ru = "думать"
+de = "denken"
+syn = "sich besinnen"
+[[word.ex]]
+de = "bei dieser Arbeit muss man denken"
+ru = "Эта работа требует размышления"
+[[word.ex]]
+de = "was mache ich jetzt, dachte sie"
+ru = "Что мне теперь делать, подумала она"
+[[word.ex]]
+de = "erst denken, dann handeln"
+ru = "сначала подумай, потом действуй"
+[[word.ex]]
+de = "nichts Böses denken"
+ru = "не думай ничего плохого"
+[[word.ex]]
+de = "ich denke, wir können uns einigen"
+ru = "Я думаю, мы можем договориться"
+[[word.ex]]
+de = "wer hätte das gedacht!"
+ru = "кто бы мог подумать"
+[[word.ex]]
+de = "denk bitte nicht schlecht von mir!"
+ru = "Пожалуйста, не думайте обо мне плохо!"
+[[word.ex]]
+de = "das kann ich mir nicht denken"
+ru = "Я не могу себе этого представить"
+
+[[word]]
+ru = "замечать"
+de = "merken"
+syn = "durchschauen, erkennen"
+[[word.ex]]
+de = "etwas sofort merken"
+ru = "сразу заметить что-то"
+[[word.ex]]
+de = "es war zu merken, dass sie Angst hatte"
+ru = "было ясно, что она боится"
+[word.kon]
+"pres" = "er merkt"
+"prat" = "er merkte"
+"perfekt" = "er hat gemerkt"
+
+[[word]]
+ru = "запоминать"
+de = "sich merken"
+[[word.ex]]
+de = "sich Zahlen merken"
+ru = "запоминать цифры"
+[[word.ex]]
+de = "diese Telefonnummer kann man sich gut merken"
+ru = "Этот номер телефона легко запомнить"

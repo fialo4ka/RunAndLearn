@@ -5,7 +5,7 @@
 [[word]]
 ru = "начало"
 de = "der Anfang"
-syn = ""
+syn = "der Be­ginn"
 [[word.ex]]
 de = "der Anfang der Weltgeschichte"
 ru = "начало мировой истории"
@@ -28,7 +28,7 @@ ru = " начало улицы"
 [[word]]
 ru = "начинать"
 de = "anfangen"
-syn = ""
+syn = "anfangen, angehen"
 [word.kon]
 "pres" = "er fängt an"
 "prat" = "er fing an"
@@ -46,7 +46,7 @@ ru = "слово начинается с буквы п"
 [[word]]
 ru = "конец"
 de = "der Abschluss"
-syn = ""
+syn = "das Ende, der Schluss"
 [[word.ex]]
 de = "der Abschluss der Arbeiten"
 ru = "завершение работы"
@@ -55,7 +55,7 @@ de = "nach Abschluss des Studiums"
 ru = "после окончания учебы"
 
 [[word]]
-syn = ""
+syn = "beenden, stoppen, abbrechen"
 ru = "перестать, заканчивать, прекратить"
 de = "aufhören"
 [word.kon]

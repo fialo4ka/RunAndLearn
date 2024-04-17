@@ -18,33 +18,57 @@ def createmp3(text):
 
 
 import tomllib
-from dataclasses import dataclass
-from typing import Optional
+from dataclasses import dataclass, field
+from typing import Any, Optional
+
+@dataclass
+class Konjugation:
+    pres: str
+    prat: str
+    perfekt: str
+
+@dataclass
+class Example:
+    ru: str
+    de: str
 
 @dataclass
 class Word:
     ru: str
     de: str
-    syn: Optional[str]
+    syn: Optional[str] = None
+    kon: Optional[Konjugation] = None
+    ex: list[Example] = field(default_factory=list)
 
-def load() -> list[Word]:
-    with open("topics/001.toml", "rb") as toml:
-        data = tomllib.load(toml)
-    return list([Word(**word) for word in data['word']])
+    @staticmethod
+    def from_dict(word: dict[str, Any]) -> 'Word':
+        return Word(
+            ru=word['ru'],
+            de=word['de'],
+            syn=word['syn'] if 'syn' in word else None,
+            kon=Konjugation(**word['kon']) if 'kon' in word else None,
+            ex=list([ Example(**ex) for ex in word['ex']]) if 'ex' in word else [],
+        )
 
-data = load()
+def load(file: str) -> list[Word]:
+    with open(file, "rb") as toml:
+        #todo validate toml
+        data = tomllib.load(toml) 
+    return list([Word.from_dict(word) for word in data['word']])
+
+data = load("topics/001.toml")
 
 
-for word in data['word']:
-    createmp3(word['ru'])
-    createmp3(word['de'])
-    if 'syn' in word: 
-        createmp3(word['syn'])
-    if 'kon' in word: 
-        createmp3(": " + word['kon']['pres'] + ", : " + word['kon']['prat'] + ", : " + word['kon']['perfekt'] )
-    for example in word['ex']:
-        createmp3("   " + example['ru'])
-        createmp3("   " + example['de'])
+for word in data:
+    createmp3(word.ru)
+    createmp3(word.de)
+    if word.syn: 
+        createmp3(word.syn)
+    if word.kon: 
+        createmp3(": " + word.kon.pres + ", : " + word.kon.prat + ", : " + word.kon.perfekt )
+    for example in word.ex:
+        createmp3("   " + example.ru )
+        createmp3("   " + example.de )
 
 
 

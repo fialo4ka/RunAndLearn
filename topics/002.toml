@@ -5,7 +5,6 @@
 [[word]]
 ru = "сказка"
 de = "das Märchen"
-syn = ""
 [[word.ex]]
 de = "das Zaubermärchen, das Kindermärchen, das Volksmärchen"
 ru = "волшебная сказка, детская сказка, народная сказка"
@@ -22,7 +21,6 @@ ru = "Только не рассказывайте мне сказки"
 [[word]]
 ru = "рассказ"
 de = "die Er­zäh­lung"
-syn = ""
 [[word.ex]]
 de = "in seiner Erzählung fortfahren"
 ru = "продолжить свой рассказ"
@@ -33,7 +31,6 @@ ru = "Писать истории"
 [[word]]
 ru = "история"
 de = "die Geschichte"
-syn = ""
 [[word.ex]]
 de = "die Geschichte der Menschheit"
 ru = "история человечества"
@@ -47,7 +44,6 @@ ru = "прочитать историю"
 [[word]]
 ru = "стихотворение"
 de = "das Gedicht"
-syn = ""
 [[word.ex]]
 de = "ein Gedicht lernen"
 ru = "выучить стихотворение"
@@ -55,7 +51,6 @@ ru = "выучить стихотворение"
 [[word]]
 ru = "книга"
 de = "das Buch"
-syn = ""
 [[word.ex]]
 de = "ein dickes Buch"
 ru = "толстая книга"
@@ -72,7 +67,6 @@ ru = "вести бухгалтерию"
 [[word]]
 ru = "рассказывать"
 de = "erzählen"
-syn = ""
 [[word.ex]]
 de = "gut erzählen können"
 ru = "уметь хорошо рассказывать истории"
@@ -93,7 +87,6 @@ ru = "Но ты не можешь никому об этом рассказат"
 [[word]]
 ru = "читать"
 de = "lesen"
-syn = ""
 [[word.ex]]
 de = "laut, leise, schnell, langsam lesen"
 ru = "громко, тихо, быстро, медленно читать"

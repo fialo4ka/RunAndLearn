@@ -1,0 +1,139 @@
+################
+# 4 #
+################
+
+[[word]]
+ru = "часто"
+de = "oft"
+[[word.ex]]
+de = "oft krank sein"
+ru = "часто болеть"
+[[word.ex]]
+de = "dieser Bus verkehrt ziemlich oft"
+ru = "этот автобус ходит довольно часто"
+
+[[word]]
+ru = "часто"
+de = "häufig"
+[[word.ex]]
+de = "häufige Besuche"
+ru = "частые визиты"
+[[word.ex]]
+de = "ein häufiger Fehler"
+ru = "распространенная ошибка"
+
+[[word]]
+ru = "чаще всего"
+de = "meistens"
+[[word.ex]]
+de = "meistens benutze ich den Bus"
+ru = "Я обычно пользуюсь автобусом"
+
+[[word]]
+ru = "всегда"
+de = "immer"
+[[word.ex]]
+de = "das Wetter war immer schön"
+ru = "погода всегда была хорошей"
+[[word.ex]]
+de = "mach es wie immer!"
+ru = "делай как всегда!"
+[[word.ex]]
+de = "immer wenn wir ausgehen wollen, regnet es"
+ru = "Каждый раз, когда мы хотим выйти, идет дождь"
+[[word.ex]]
+de = "Immer wieder gerne!"
+ru = "Всегда пожалуйста!"
+[[word.ex]]
+de = "	für immer"
+ru = "навечно"
+
+[[word]]
+ru = "регулярно"
+de = "regelmäßig"
+[[word.ex]]
+de = "regelmäßige Mahlzeiten"
+ru = "регулярное питание"
+[[word.ex]]
+de = "er ist ein regelmäßiger Gast"
+ru = "он постоянный гость"
+
+[[word]]
+ru = "неоднократно, несколько раз  "
+de = "mehrmals"
+[[word.ex]]
+de = "etwas mehrmals versuchen"
+ru = "попробовать что-нибудь несколько раз"
+
+[[word]]
+ru = "редко "
+de = "selten"
+[[word.ex]]
+de = "ein seltenes Ereignis"
+ru = "редкое событие"
+[[word.ex]]
+de = "ein seltener Gast"
+ru = "редкий гость"
+[[word.ex]]
+de = "ein selten preiswertes Angebot"
+ru = "редкое недорогое предложение"
+
+
+[[word]]
+ru = "редкий "
+de = "rar"
+[[word.ex]]
+de = "Experten auf diesem Gebiet sind rar"
+ru = "Специалисты в этой области редки."
+[[word.ex]]
+de = "eine rare Gelegenheit"
+ru = " редкая возможность"
+
+[[word]]
+ru = "иногда"
+de = "manchmal"
+[[word.ex]]
+de = "sie besucht ihn manchmal"
+ru = "она иногда навещает его"
+
+[[word]]
+ru = "иногда "
+de = "gelegentlich"
+[[word.ex]]
+de = " gelegentliche Besuche"
+ru = "случайные визиты"
+[[word.ex]]
+de = "er raucht nur noch gelegentlich"
+ru = " он курит лишь изредка"
+
+
+[[word]]
+ru = "никогда"
+de = "niemals"
+[[word.ex]]
+de = "Wir sehen uns niemals wieder!"
+ru = "Мы не увидимся никогда!"
+[[word.ex]]
+de = "Sag niemals nie "
+ru = "Никогда не говори никогда"
+
+[[word]]
+ru = "никогда"
+de = "nie"
+[[word.ex]]
+de = " das wird er nie vergessen"
+ru = "он никогда этого не забудет"
+[[word.ex]]
+de = "nie mehr!"
+ru = "никогда больше!"
+
+
+
+
+
+
+
+
+
+
+
