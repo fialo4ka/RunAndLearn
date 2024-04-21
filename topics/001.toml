@@ -2,6 +2,8 @@
 # 1 #
 ################
 
+author = "fialo4ka"
+
 [[word]]
 ru = "начало"
 de = "der Anfang"

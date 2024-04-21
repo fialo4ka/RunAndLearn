@@ -2,6 +2,8 @@
 # 2 #
 ################
 
+author = "fialo4ka"
+
 [[word]]
 ru = "сказка"
 de = "das Märchen"

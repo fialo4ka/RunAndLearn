@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <title>Learn german for russian speaking people podcast</title>
+    <link>https://de.fialo.info/</link>
+    <description>&#1069;&#1090;&#1086;&#1090; &#1082;&#1072;&#1085;&#1072;&#1083; &#1076;&#1083;&#1103; &#1090;&#1077;&#1093;, &#1082;&#1090;&#1086; &#1093;&#1086;&#1095;&#1077;&#1090; &#1080;&#1079;&#1091;&#1095;&#1072;&#1090;&#1100; &#1085;&#1077;&#1084;&#1077;&#1094;&#1082;&#1080;&#1081; &#1103;&#1079;&#1099;&#1082;. &#1050;&#1072;&#1078;&#1076;&#1099;&#1081; &#1074;&#1099;&#1087;&#1091;&#1089;&#1082; &#1089;&#1086;&#1076;&#1077;&#1088;&#1078;&#1080;&#1090; &#1085;&#1077; &#1073;&#1086;&#1083;&#1077;&#1077; 10 &#1089;&#1083;&#1086;&#1074; &#1089; &#1087;&#1088;&#1080;&#1084;&#1077;&#1088;&#1072;&#1084;&#1080; &#1080;&#1089;&#1087;&#1086;&#1100;&#1079;&#1086;&#1074;&#1072;&#1085;&#1080;&#1103;, &#1074;&#1077;&#1089;&#1100; &#1090;&#1077;&#1082;&#1089;&#1090; &#1087;&#1088;&#1086;&#1080;&#1079;&#1085;&#1086;&#1089;&#1080;&#1090;&#1089;&#1103; &#1089; &#1087;&#1086;&#1084;&#1086;&#1097;&#1100;&#1102; &#1072;&#1074;&#1090;&#1086;&#1075;&#1077;&#1085;&#1077;&#1088;&#1072;&#1094;&#1080;&#1080; &#1075;&#1086;&#1083;&#1086;&#1089;&#1072; "Free Text-To-Speech" https://ttsmp3.com. &#1045;&#1089;&#1083;&#1080; &#1074;&#1099; &#1093;&#1086;&#1090;&#1080;&#1090;&#1077; &#1087;&#1088;&#1080;&#1089;&#1086;&#1077;&#1076;&#1080;&#1085;&#1080;&#1090;&#1100;&#1089;&#1103; &#1082; &#1087;&#1088;&#1086;&#1077;&#1082;&#1090;&#1091; &#1080; &#1089;&#1090;&#1072;&#1090;&#1100; &#1077;&#1075;&#1086; &#1089;&#1086;&#1072;&#1074;&#1090;&#1086;&#1088;&#1086;&#1084;, &#1101;&#1090;&#1086;  &#1087;&#1080;&#1096;&#1080;&#1090;&#1077; &#1085;&#1072; podcast@fialo.info &#1080;&#1083;&#1080; &#1089;&#1088;&#1072;&#1079;&#1091; &#1076;&#1086;&#1073;&#1072;&#1074;&#1083;&#1103;&#1081;&#1090;&#1077; &#1089;&#1074;&#1086;&#1080; &#1074;&#1099;&#1087;&#1091;&#1089;&#1082;&#1080; &#1085;&#1072; </description>
+    <copyright>Copyright 2024 fialo4ka For Personal Use Only</copyright>
+    <generator/>
+    <language>de-ru</language>
+    <itunes:author>fialo4ka</itunes:author>
+    <itunes:block>no</itunes:block>
+    <itunes:owner>
+      <itunes:email>podcast@fialo.info</itunes:email>
+      <itunes:name>fialo4ka</itunes:name>
+    </itunes:owner>
+    <itunes:category text="Learn">
+      <itunes:category text="German"/>
+      <itunes:category text="Russian"/>
+    </itunes:category>
+    <!--    <media:thumbnail url="https://media.npr.org/assets/img/2024/01/11/podcast-politics_2023_update1_wide-5c643a45964e780cf8cb9d760c31cf50b1b4a0de.jpg?s=3000&amp;c=66&amp;f=jpg" height="1687" width="3000"/>
+    <itunes:image href="https://media.npr.org/assets/img/2024/01/11/podcast-politics_2023_update1_sq-be7ef464dd058fe663d9e4cfe836fb9309ad0a4d.jpg?s=1400&amp;c=66&amp;f=jpg"/>
+    -->
+    <itunes:type>episodic</itunes:type>
+    <image>
+      <url>https://de.fialo.info/image.jpg</url>
+      <title>The NPR Politics Podcast</title>
+      <link>https://fialo.info/podcast</link>
+    </image>
+    <lastBuildDate>21/04/2024, 21:42</lastBuildDate>
+    <item>
+      <title>001</title>
+      <description>all words with &lt;br/&gt;</description>
+      <pubDate/>
+      <guid isPermaLink="false">80c71bc3-06dd-445e-a137-b40d61b2d965</guid>
+      <itunes:block>no</itunes:block>
+      <itunes:title>001</itunes:title>
+      <itunes:duration>920</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <content:encoded/>
+      <enclosure length="14723493" type="audio/mpeg" url="https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510310/traffic.megaphone.fm/NPR7980467882.mp3?d=920&amp;size=14723493&amp;e=1197962833&amp;t=podcast&amp;p=510310"/>
+    </item>
+    <Item>
+      <author/>
+      <ns0:block xmlns:ns0="itunes">no</ns0:block>
+      <title/>
+      <description/>
+      <pubDate>21/04/2024, 21:17</pubDate>
+      <enclosure url="xvcv" type="audio/mpeg" length=""/>
+    </Item>
+    <Item>
+      <author>author</author>
+      <ns5:duration xmlns:ns5="itunes">12:23</ns5:duration>
+      <title>title</title>
+      <description/>
+      <pubDate>21/04/2024, 21:27</pubDate>
+      <enclosure url="" type="audio/mpeg" length=""/>
+      <ns0:block xmlns:ns0="itunes">no</ns0:block>
+      <ns1:explicit xmlns:ns1="itunes">no</ns1:explicit>
+      <ns2:episodeType xmlns:ns2="itunes">full</ns2:episodeType>
+      <ns3:title xmlns:ns3="itunes">title</ns3:title>
+      <ns4:author xmlns:ns4="itunes">author</ns4:author>
+    </Item>
+    <Item>
+      <author>fialo4ka</author>
+      <ns5:duration xmlns:ns5="itunes">12:23</ns5:duration>
+      <title>title</title>
+      <description/>
+      <pubDate>21/04/2024, 21:36</pubDate>
+      <enclosure url="" type="audio/mpeg" length=""/>
+      <ns0:block xmlns:ns0="itunes">no</ns0:block>
+      <ns1:explicit xmlns:ns1="itunes">no</ns1:explicit>
+      <ns2:episodeType xmlns:ns2="itunes">full</ns2:episodeType>
+      <ns3:title xmlns:ns3="itunes">title</ns3:title>
+      <ns4:author xmlns:ns4="itunes">fialo4ka</ns4:author>
+    </Item>
+    <Item>
+      <author>fialo4ka</author>
+      <ns5:duration xmlns:ns5="itunes">12:23</ns5:duration>
+      <title>001</title>
+      <description/>
+      <pubDate>21/04/2024, 21:40</pubDate>
+      <enclosure url="" type="audio/mpeg" length=""/>
+      <ns0:block xmlns:ns0="itunes">no</ns0:block>
+      <ns1:explicit xmlns:ns1="itunes">no</ns1:explicit>
+      <ns2:episodeType xmlns:ns2="itunes">full</ns2:episodeType>
+      <ns3:title xmlns:ns3="itunes">001</ns3:title>
+      <ns4:author xmlns:ns4="itunes">fialo4ka</ns4:author>
+    </Item>
+    <Item>
+      <author>fialo4ka</author>
+      <ns5:duration xmlns:ns5="itunes">12:23</ns5:duration>
+      <title>001</title>
+      <description></description>
+      <pubDate>21/04/2024, 21:42</pubDate>
+      <enclosure url="" type="audio/mpeg" length=""></enclosure>
+      <ns0:block xmlns:ns0="itunes">no</ns0:block>
+      <ns1:explicit xmlns:ns1="itunes">no</ns1:explicit>
+      <ns2:episodeType xmlns:ns2="itunes">full</ns2:episodeType>
+      <ns3:title xmlns:ns3="itunes">001</ns3:title>
+      <ns4:author xmlns:ns4="itunes">fialo4ka</ns4:author>
+    </Item>
+  </channel>
+</rss>
