@@ -28,74 +28,14 @@
       <title>The NPR Politics Podcast</title>
       <link>https://fialo.info/podcast</link>
     </image>
-    <lastBuildDate>21/04/2024, 21:42</lastBuildDate>
-    <item>
-      <title>001</title>
-      <description>all words with &lt;br/&gt;</description>
-      <pubDate/>
-      <guid isPermaLink="false">80c71bc3-06dd-445e-a137-b40d61b2d965</guid>
-      <itunes:block>no</itunes:block>
-      <itunes:title>001</itunes:title>
-      <itunes:duration>920</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:episodeType>full</itunes:episodeType>
-      <content:encoded/>
-      <enclosure length="14723493" type="audio/mpeg" url="https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510310/traffic.megaphone.fm/NPR7980467882.mp3?d=920&amp;size=14723493&amp;e=1197962833&amp;t=podcast&amp;p=510310"/>
-    </item>
-    <Item>
-      <author/>
-      <ns0:block xmlns:ns0="itunes">no</ns0:block>
-      <title/>
-      <description/>
-      <pubDate>21/04/2024, 21:17</pubDate>
-      <enclosure url="xvcv" type="audio/mpeg" length=""/>
-    </Item>
-    <Item>
-      <author>author</author>
-      <ns5:duration xmlns:ns5="itunes">12:23</ns5:duration>
-      <title>title</title>
-      <description/>
-      <pubDate>21/04/2024, 21:27</pubDate>
-      <enclosure url="" type="audio/mpeg" length=""/>
-      <ns0:block xmlns:ns0="itunes">no</ns0:block>
-      <ns1:explicit xmlns:ns1="itunes">no</ns1:explicit>
-      <ns2:episodeType xmlns:ns2="itunes">full</ns2:episodeType>
-      <ns3:title xmlns:ns3="itunes">title</ns3:title>
-      <ns4:author xmlns:ns4="itunes">author</ns4:author>
-    </Item>
+    <lastBuildDate>23/04/2024, 15:25</lastBuildDate>
     <Item>
       <author>fialo4ka</author>
-      <ns5:duration xmlns:ns5="itunes">12:23</ns5:duration>
-      <title>title</title>
-      <description/>
-      <pubDate>21/04/2024, 21:36</pubDate>
-      <enclosure url="" type="audio/mpeg" length=""/>
-      <ns0:block xmlns:ns0="itunes">no</ns0:block>
-      <ns1:explicit xmlns:ns1="itunes">no</ns1:explicit>
-      <ns2:episodeType xmlns:ns2="itunes">full</ns2:episodeType>
-      <ns3:title xmlns:ns3="itunes">title</ns3:title>
-      <ns4:author xmlns:ns4="itunes">fialo4ka</ns4:author>
-    </Item>
-    <Item>
-      <author>fialo4ka</author>
-      <ns5:duration xmlns:ns5="itunes">12:23</ns5:duration>
+      <ns5:duration xmlns:ns5="itunes"/>
       <title>001</title>
       <description/>
-      <pubDate>21/04/2024, 21:40</pubDate>
-      <enclosure url="" type="audio/mpeg" length=""/>
-      <ns0:block xmlns:ns0="itunes">no</ns0:block>
-      <ns1:explicit xmlns:ns1="itunes">no</ns1:explicit>
-      <ns2:episodeType xmlns:ns2="itunes">full</ns2:episodeType>
-      <ns3:title xmlns:ns3="itunes">001</ns3:title>
-      <ns4:author xmlns:ns4="itunes">fialo4ka</ns4:author>
-    </Item>
-    <Item>
-      <author>fialo4ka</author>
-      <ns5:duration xmlns:ns5="itunes">12:23</ns5:duration>
-      <title>001</title>
-      <description></description>
-      <pubDate>21/04/2024, 21:42</pubDate>
-      <enclosure url="" type="audio/mpeg" length=""></enclosure>
+      <pubDate>23/04/2024, 13:42</pubDate>
+      <enclosure url="mp3/001.mp3" type="audio/mpeg" length=""/>
       <ns0:block xmlns:ns0="itunes">no</ns0:block>
       <ns1:explicit xmlns:ns1="itunes">no</ns1:explicit>
       <ns2:episodeType xmlns:ns2="itunes">full</ns2:episodeType>
