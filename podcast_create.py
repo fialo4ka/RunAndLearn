@@ -118,9 +118,9 @@ def ttsmp3Com(data) -> list[str]:
         files.append(downloadMp3(str(i) + "_de", word.de, 1))
         files.append(downloadMp3(str(i) + "_ru", word.ru, 0))
         if word.syn: 
-            files.append(downloadMp3(str(i) + "_syn", word.syn, 0))
+            files.append(downloadMp3(str(i) + "_syn_de", word.syn, 0))
         if word.kon: 
-            files.append(downloadMp3(str(i) + "_kon", ": " + word.kon.pres + ", : " + word.kon.prat + ", : " + word.kon.perfekt, 0))
+            files.append(downloadMp3(str(i) + "_kon_de", ": " + word.kon.pres + ", : " + word.kon.prat + ", : " + word.kon.perfekt, 0))
         j = 0
         for example in word.ex:
             files.append(downloadMp3(str(i) + "_" + str(j) + "_x_de", "   " + example.de, 1))
@@ -146,7 +146,6 @@ def getDurationMs(resultMp3) -> int:
 
 
 samplerate = 44100
-audio_bits = 16
 
 def fanzyConcatFiles(files, title) -> str:
     result = f"mp3/{title}.mp3"
@@ -162,67 +161,17 @@ def fanzyConcatFiles(files, title) -> str:
 
         data = p.stdout
         p_out.stdin.write(data)
-        p_out.stdin.write(bytes([0]*len(data)))
+        if "de" in file:
+            p_out.stdin.write(bytes([0]*len(data)))
+        else:
+            p_out.stdin.write(bytes([0]*16))
+
 
     # p.communicate(input=data)
     p_out.stdin.flush()
     p_out.stdin.close()
     p_out.wait()
     return result
-
-
-def concatunateFile(file1: str , file2: str, result: str) -> None:
-    duration = getDurationMs(file1)
-    command = ['ffmpeg', '-i', file1, '-i', file2, '-filter_complex' ,f'[0]adelay=0[a0];[1]adelay={duration}[a1];[a0][a1]amix=inputs=2', result]
-    p = subprocess.run(command)
-    if p.returncode != 0:
-        raise Exception(f'{p=} failed')
-
-def concatunateFiles(files, title) -> str:
-    mp3 = "mp3"
-    if not os.path.exists(mp3):
-        os.makedirs(mp3)
-    result = f"{mp3}/{title}.mp3"
-    param = []
-    delay = '' 
-    delay2 =''  
-    i = 0
-    totalDelay = 0
-    for file in files:
-        param.append('-i')
-        param.append(file)
-        delay = f'{delay}[{i}]adelay={totalDelay}[a{i}];'
-        delay2 = f'{delay2}[a{i}]'
-        i= i + 1
-        if "de" in file:
-            totalDelay += getDurationMs(file)*2
-        else:
-            totalDelay += getDurationMs(file)
-    delay2 = f'{delay}{delay2}amix=inputs={i}'    
-    print(delay2)
-    command = ['ffmpeg', *param, '-filter_complex', delay2, result]   
-    print(command)
-    p = subprocess.run(command)
-    if p.returncode != 0:
-        raise Exception(f'{p=} failed')
-    return result
-
-
-'''
-    result_old = files[0]
-    for i, file in enumerate(files[1:]):
-        result = f"mp3/{title}_{i}.mp3"
-        concatunateFile(result_old, file, result)
-        result_old = result
-
-    return result_old
-'''
-
-#ffmpeg -i temp/0_de.mp3 -i temp/0_ru.mp3 -filter_complex "[0]adelay=0[a0];[1]adelay=2000[a1];[a0][a1]amix=inputs=2" mp3/001.mp3
-#ffmpeg -i temp/0_de.mp3 -f null
-#ffmpeg -i temp/0_de.mp3 2>&1 | grep Duration
-#ffmpeg -i temp/0_de.mp3 2>&1 | awk '/Duration/ { print substr($2,0,length($2)-1) }'
-
 
 import lxml.etree as etree
 from datetime import datetime
@@ -273,9 +222,9 @@ words = getWords(url)
 
 #generate audio files
 
-# files = ttsmp3Com(words)
+files = ttsmp3Com(words)
 
-files = test()#['0_ru.mp3', '0_de.mp3', '0_syn.mp3', '0_0_x_ru.mp3', '0_0_x_de.mp3', '0_1_x_ru.mp3', '0_1_x_de.mp3', '0_2_x_ru.mp3']
+#files = test()#['0_ru.mp3', '0_de.mp3', '0_syn.mp3', '0_0_x_ru.mp3', '0_0_x_de.mp3', '0_1_x_ru.mp3', '0_1_x_de.mp3', '0_2_x_ru.mp3']
 
 
 #concatunate audio files
