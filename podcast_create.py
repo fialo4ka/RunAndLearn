@@ -1,3 +1,4 @@
+import itertools
 import tomllib
 from dataclasses import dataclass, field
 from typing import Any, Optional
@@ -144,6 +145,32 @@ def getDurationMs(resultMp3) -> int:
     return int(3600000 * hours + 60000 * minutes + 1000 * seconds)
 
 
+samplerate = 44100
+audio_bits = 16
+
+def fanzyConcatFiles(files, title) -> str:
+    result = f"mp3/{title}.mp3"
+
+    print(files)
+    p_out = subprocess.Popen(['ffmpeg', '-f', 's16le', '-i', '-', result], stdin=subprocess.PIPE)
+
+    for file in files:
+        p = subprocess.run(['ffmpeg', '-i', file, '-ar', str(samplerate), '-f', 's16le', '-'], capture_output=True)
+        if p.returncode != 0:
+            raise Exception(f'{p=} failed')
+        print(p.stderr.decode())
+
+        data = p.stdout
+        p_out.stdin.write(data)
+        p_out.stdin.write(bytes([0]*len(data)))
+
+    # p.communicate(input=data)
+    p_out.stdin.flush()
+    p_out.stdin.close()
+    p_out.wait()
+    return result
+
+
 def concatunateFile(file1: str , file2: str, result: str) -> None:
     duration = getDurationMs(file1)
     command = ['ffmpeg', '-i', file1, '-i', file2, '-filter_complex' ,f'[0]adelay=0[a0];[1]adelay={duration}[a1];[a0][a1]amix=inputs=2', result]
@@ -246,13 +273,13 @@ words = getWords(url)
 
 #generate audio files
 
-files = ttsmp3Com(words)
+# files = ttsmp3Com(words)
 
-#files = test()#['0_ru.mp3', '0_de.mp3', '0_syn.mp3', '0_0_x_ru.mp3', '0_0_x_de.mp3', '0_1_x_ru.mp3', '0_1_x_de.mp3', '0_2_x_ru.mp3']
+files = test()#['0_ru.mp3', '0_de.mp3', '0_syn.mp3', '0_0_x_ru.mp3', '0_0_x_de.mp3', '0_1_x_ru.mp3', '0_1_x_de.mp3', '0_2_x_ru.mp3']
 
 
 #concatunate audio files
-resultMp3 = concatunateFiles(files, title)
+resultMp3 = fanzyConcatFiles(files, title)
 duration = getDurationStr(resultMp3)
 
 #update rss
