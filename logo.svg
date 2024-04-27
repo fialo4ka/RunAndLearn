@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="150mm"
+   height="150mm"
+   viewBox="0 0 150 150"
+   version="1.1"
+   id="svg507"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview509"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="true"
+     inkscape:zoom="0.53921852"
+     inkscape:cx="31.527107"
+     inkscape:cy="-0.92726785"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs504" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:#008080;fill-opacity:1;stroke:#008080;stroke-width:0.49766;stroke-opacity:1"
+       id="path628"
+       cx="74.491371"
+       cy="73.807655"
+       r="64.751167" />
+    <path
+       id="path1392"
+       style="fill:none;stroke:#ffffff;stroke-width:6.11204;stroke-dasharray:none;stroke-opacity:1"
+       d="m 52.315728,60.31733 c 13.240616,0.05478 18.371919,3.135824 21.869195,18.688187"
+       sodipodi:nodetypes="cc" />
+    <path
+       id="path1605"
+       style="fill:none;stroke:#ffffff;stroke-width:6.11204;stroke-dasharray:none;stroke-opacity:1"
+       d="m 52.362659,42.045346 c 23.456203,0 38.760106,13.580796 38.760121,37.03693"
+       sodipodi:nodetypes="cc" />
+    <path
+       id="path1607"
+       style="fill:none;stroke:#ffffff;stroke-width:6.11204;stroke-dasharray:none;stroke-opacity:1"
+       d="M 52.245056,22.37577 C 86.158423,20.968608 111.53656,46.308684 108.87341,79.003905"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.6389px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583;fill:#ffff00"
+       x="76.415535"
+       y="99.11721"
+       id="text348"><tspan
+         sodipodi:role="line"
+         id="tspan346"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.6389px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583;fill:#ffff00"
+         x="76.415535"
+         y="99.11721">Sprichst du </tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.6389px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583;fill:#ffff00"
+         x="76.415535"
+         y="121.16583"
+         id="tspan400">Deutsch?</tspan></text>
+  </g>
+</svg>

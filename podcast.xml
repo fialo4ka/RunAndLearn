@@ -19,13 +19,13 @@
       <itunes:category text="German"/>
       <itunes:category text="Russian"/>
     </itunes:category>
-    <media:thumbnail url="https://media.npr.org/assets/img/2024/01/11/podcast-politics_2023_update1_wide-5c643a45964e780cf8cb9d760c31cf50b1b4a0de.jpg?s=3000&amp;c=66&amp;f=jpg" height="1687" width="3000"/>
-    <itunes:image href="https://media.npr.org/assets/img/2024/01/11/podcast-politics_2023_update1_sq-be7ef464dd058fe663d9e4cfe836fb9309ad0a4d.jpg?s=1400&amp;c=66&amp;f=jpg"/>
+    <media:thumbnail url="https://de.fialo.info/podcast.jpg?s=3000&amp;c=66&amp;f=jpg" height="1687" width="3000"/>
+    <itunes:image href="https://de.fialo.info/podcast.jpg?s=1400&amp;c=66&amp;f=jpg"/>
     <itunes:type>episodic</itunes:type>
     <image>
-      <url>https://de.fialo.info/image.jpg</url>
-      <title>Sprichst Deutsch! podcast</title>
-      <link>https://fialo.info/podcast</link>
+      <url>https://de.fialo.info/podcast.jpg</url>
+      <title>Sprichst du Deutsch? podcast</title>
+      <link>https://de.fialo.info/podcast</link>
     </image>
     <lastBuildDate>24/04/2024, 12:07</lastBuildDate>
   </channel>

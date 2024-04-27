@@ -118,9 +118,9 @@ def ttsmp3Com(data) -> list[str]:
         files.append(downloadMp3(str(i) + "_de", word.de, 1))
         files.append(downloadMp3(str(i) + "_ru", word.ru, 0))
         if word.syn: 
-            files.append(downloadMp3(str(i) + "_syn_de", word.syn, 0))
+            files.append(downloadMp3(str(i) + "_syn_de", "synonyme: "+ word.syn, 0))
         if word.kon: 
-            files.append(downloadMp3(str(i) + "_kon_de", ": " + word.kon.pres + ", : " + word.kon.prat + ", : " + word.kon.perfekt, 0))
+            files.append(downloadMp3(str(i) + "_kon_de", "Präsens: " + word.kon.pres + ", Präteritum: " + word.kon.prat + ", Perfekt: " + word.kon.perfekt, 0))
         j = 0
         for example in word.ex:
             files.append(downloadMp3(str(i) + "_" + str(j) + "_x_de", "   " + example.de, 1))
@@ -176,7 +176,7 @@ def fanzyConcatFiles(files, title) -> str:
 import lxml.etree as etree
 from datetime import datetime
 
-def updateRss(words, resultMp3, duration, title, author) -> None:
+def updateRss(words : Word, resultMp3, duration, title, author) -> None:
     xmlfilepath='podcast.xml' 
     tree = etree.parse(xmlfilepath)
     channel = tree.xpath('//rss/channel')[0]
@@ -187,7 +187,7 @@ def updateRss(words, resultMp3, duration, title, author) -> None:
     item = etree.SubElement(channel, 'Item')
     etree.SubElement(item, 'author').text = author  
     etree.SubElement(item, 'title').text = title
-    etree.SubElement(item, 'description').text = ''    
+    etree.SubElement(item, 'description').text = '<br>'.join(f'{word.de} - {word.ru}' for word in words)    
     etree.SubElement(item, 'pubDate').text = dateNow   
     etree.SubElement(item, 'enclosure', url=resultMp3,type="audio/mpeg", length=""  ).text = ''  
     etree.SubElement(item, '{itunes}block').text = 'no'
@@ -222,9 +222,9 @@ words = getWords(url)
 
 #generate audio files
 
-files = ttsmp3Com(words)
+#files = ttsmp3Com(words)
 
-#files = test()#['0_ru.mp3', '0_de.mp3', '0_syn.mp3', '0_0_x_ru.mp3', '0_0_x_de.mp3', '0_1_x_ru.mp3', '0_1_x_de.mp3', '0_2_x_ru.mp3']
+files = test()#['0_ru.mp3', '0_de.mp3', '0_syn.mp3', '0_0_x_ru.mp3', '0_0_x_de.mp3', '0_1_x_ru.mp3', '0_1_x_de.mp3', '0_2_x_ru.mp3']
 
 
 #concatunate audio files

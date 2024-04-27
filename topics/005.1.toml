@@ -1,0 +1,186 @@
+################
+# 5,1 #
+################
+author = "fialo4ka"
+
+[[word]]
+ru = "Кухня"
+de = "die Küche"
+[[word.ex]]
+de = "eine Zweizimmerwohnung mit Küche und Bad"
+ru = "двухкомнатная квартира с кухней и санузлом"
+[[word.ex]]
+de = "hausgemachte Küche"
+ru = "домашняя кухня"
+ 
+[[word]]
+ru = "сковорода"
+de = "die Pfanne"
+ 
+[[word]]
+ru = " 	кастрюля"
+de = "der Topf"
+ 
+[[word]]
+ru = "крышка"
+de = "der Deckel"
+ 
+[[word]]
+ru = "противень для выпечки"
+de = "das Backblech"
+ 
+[[word]]
+ru = "форма для запекания"
+de = "die Backform"
+ 
+[[word]]
+ru = "терка"
+de = "die Reibe"
+ 
+[[word]]
+ru = "натирать"
+de = "reiben"
+[word.kon]
+"pres" = "er reibt"
+"prat" = "er rieb"
+"perfekt" = "er hat gerieben"
+[[word.ex]]
+de = "mit einem Tuch über die Schuhe reiben"
+ru = "протереть обувь тряпкой"
+[[word.ex]]
+de = "Käse reiben"
+ru = "Натереть сыр"
+[[word.ex]]
+de = " sich die Backen reiben"
+ru = "потираеть щеки"
+[[word.ex]]
+de = "sich an einem Problem reiben"
+ru = "бороться с проблемой"
+ 
+[[word]]
+ru = "лопаточка"
+de = "der Spatel"
+ 
+[[word]]
+ru = "половник, поварешка"
+de = "die Kelle"
+ 
+[[word]]
+ru = "венчик"
+de = "der Schneebesen"
+
+[[word]]
+ru = "взбивать"
+de = "steif schlagen"
+[[word.ex]]
+de = "ich schlage den Rahm steif"
+ru = "я сбиваю сливки"
+
+[[word]]
+ru = "разделочная доска"
+de = "das Schneidebrett "
+  
+[[word]]
+ru = "нарезать"
+de = "schneiden"
+[word.kon]
+"pres" = "er schneidet"
+"prat" = "er schnitt"
+"perfekt" = "er hat geschnitten"
+[[word.ex]]
+de = "Zwiebeln in Ringe schneiden"
+ru = "Лук нарезаем кольцами"
+[[word.ex]]
+de = "das Haar schneiden"
+ru = "стричь волосы"
+[[word.ex]]
+de = "ich habe mich in den Finger geschnitten"
+ru = " Я порезал палец"
+
+[[word]]
+ru = "духовка"
+de = "der Ofen"
+ 
+[[word]]
+ru = "плита"
+de = "der Herd"
+ 
+[[word]]
+ru = " 	холодильник"
+de = "der Kühlschrank"
+ 
+[[word]]
+ru = "морозильная камера"
+de = "der Tiefkühlschrank"
+ 
+[[word]]
+ru = "посудомоечная машина"
+de = "die Geschirrspülmaschine"
+ 
+[[word]]
+ru = "готовить"
+de = "kochen "
+[word.kon]
+"pres" = "er kocht"
+"prat" = "er kochte"
+"perfekt" = "er hat gekocht"
+[[word.ex]]
+de = "eine Suppe kochen"
+ru = "приготовить суп"
+[[word.ex]]
+de = "wer kocht heute?"
+ru = "кто сегодня готовит?"
+[[word.ex]]
+de = "sie kocht gerne"
+ru = "она любит готовить"
+[[word.ex]]
+de = "du kochst zu fett"
+ru = "ты готовишь слишком жирно"
+
+[[word]]
+ru = "жарить"
+de = "braten"
+[word.kon]
+"pres" = "er brät"
+"prat" = "Er riet"
+"perfekt" = "er hat gebraten"
+[[word.ex]]
+de = "Frikadellen braten"
+ru = "жарить котлеты"
+[[word.ex]]
+de = "Fleisch knusprig braten"
+ru = "Обжарить мясо до хрустящей корочки"
+[[word.ex]]
+de = "auf dem Ofen brieten Äpfel"
+ru = "Яблоки, запеченные в духовке, в переносном смысле, жариться на солнце, загорать" 
+[[word.ex]]
+de = "der Braten "
+ru = "жаркое" 
+
+[[word]]
+ru = "смешивать"
+de = "mischen "
+[word.kon]
+"pres" = "er mischt"
+"prat" = "er mischte"
+"perfekt" = "er hat gemischt"
+[[word.ex]]
+de = "Wasser und Wein mischen"
+ru = "Смешать воду и вино"
+
+[[word]]
+ru = "очистить от кожи, шелухи"
+de = "schälen"
+[word.kon]
+"pres" = "er schält"
+"prat" = "er schälte"
+"perfekt" = "er hat geschält"
+[[word.ex]]
+de = "einen Apfel mit einem Messer schälen"
+ru = " очистить яблоко ножом."
+[[word.ex]]
+de = "die Rinde von den Baumstämmen schälen"
+ru = "снять кору со стволов деревьев"
+[[word.ex]]
+de = "ihre Nase schält sich"
+ru = "у нее шелушится нос" 

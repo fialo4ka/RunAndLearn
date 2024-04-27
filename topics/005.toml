@@ -1,0 +1,108 @@
+################
+# 5 #
+################
+author = "fialo4ka"
+
+[[word]]
+ru = "Кухня"
+de = "die Küche"
+[[word.ex]]
+de = "eine kleine Küche"
+ru = "маленькая кухня"
+[[word.ex]]
+de = "die französische Küche"
+ru = "Французская кухня"
+ 
+[[word]]
+ru = "тарелка"
+de = "der Teller"
+
+[[word]]
+ru = "миска, чаша"
+de = "die Schüssel"
+
+[[word]]
+ru = "чашка"
+de = "die Tasse"
+
+[[word]]
+ru = "чашка для чая"
+de = "die Teetasse"
+
+[[word]]
+ru = "кружка"
+de = "der Becher"
+
+[[word]]
+ru = "бокал для вина"
+de = "das Weinglas"
+
+[[word]]
+ru = "блюдце"
+de = "die Untertasse "
+
+[[word]]
+ru = "чайник"
+de = "die Teekanne"
+
+[[word]]
+ru = "ложка"
+de = "der Löffel"
+
+[[word]]
+ru = "чайная ложка"
+de = "der Teelöffel"
+
+[[word]]
+de = "der Esslöffel "
+ru = "столовая ложка"
+
+[[word]]
+ru = "вилка"
+de = "die Gabel "
+
+[[word]]
+ru = "нож"
+de = "das Messer "
+
+[[word]]
+ru = "салфетка"
+de = "die Serviette"
+
+[[word]]
+ru = "есть"
+de = "essen"
+syn = "speisen "
+[word.kon]
+"pres" = "er isst"
+"prat" = "er aß"
+"perfekt" = "er hat gegessen"
+[[word.ex]]
+de = "mit Messer und Gabel essen"
+ru = "есть ножом и вилкой"
+[[word.ex]]
+de = "sie isst keinen Fisch "
+ru = "Она не ест рыбу "
+
+[[word]]
+ru = "пить"
+de = "trinken"
+[word.kon]
+"pres" = "er trinkt"
+"prat" = "er trank"
+"perfekt" = "er hat getrunken"
+[[word.ex]]
+de = "sie isst und trinkt gerne"
+ru = "она любит есть и пить"
+[[word.ex]]
+de = "die Mutter gibt dem Kind von der Milch zu trinken"
+ru = " мать дает ребенку молоко пить"
+[[word.ex]]
+de = "Bier trinken"
+ru = "Пейте пиво"
+[[word.ex]]
+de = "in der Kneipe sitzen und trinken"
+ru = "Сижу в пабе и пью"
+[[word.ex]]
+de = "aus Kummer trinken"
+ru = "пить от печали"
