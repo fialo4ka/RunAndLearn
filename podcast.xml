@@ -19,28 +19,14 @@
       <itunes:category text="German"/>
       <itunes:category text="Russian"/>
     </itunes:category>
-    <!--    <media:thumbnail url="https://media.npr.org/assets/img/2024/01/11/podcast-politics_2023_update1_wide-5c643a45964e780cf8cb9d760c31cf50b1b4a0de.jpg?s=3000&amp;c=66&amp;f=jpg" height="1687" width="3000"/>
+    <media:thumbnail url="https://media.npr.org/assets/img/2024/01/11/podcast-politics_2023_update1_wide-5c643a45964e780cf8cb9d760c31cf50b1b4a0de.jpg?s=3000&amp;c=66&amp;f=jpg" height="1687" width="3000"/>
     <itunes:image href="https://media.npr.org/assets/img/2024/01/11/podcast-politics_2023_update1_sq-be7ef464dd058fe663d9e4cfe836fb9309ad0a4d.jpg?s=1400&amp;c=66&amp;f=jpg"/>
-    -->
     <itunes:type>episodic</itunes:type>
     <image>
       <url>https://de.fialo.info/image.jpg</url>
-      <title>The NPR Politics Podcast</title>
+      <title>Sprichst Deutsch! podcast</title>
       <link>https://fialo.info/podcast</link>
     </image>
-    <lastBuildDate>23/04/2024, 15:25</lastBuildDate>
-    <Item>
-      <author>fialo4ka</author>
-      <ns5:duration xmlns:ns5="itunes"/>
-      <title>001</title>
-      <description/>
-      <pubDate>23/04/2024, 13:42</pubDate>
-      <enclosure url="mp3/001.mp3" type="audio/mpeg" length=""/>
-      <ns0:block xmlns:ns0="itunes">no</ns0:block>
-      <ns1:explicit xmlns:ns1="itunes">no</ns1:explicit>
-      <ns2:episodeType xmlns:ns2="itunes">full</ns2:episodeType>
-      <ns3:title xmlns:ns3="itunes">001</ns3:title>
-      <ns4:author xmlns:ns4="itunes">fialo4ka</ns4:author>
-    </Item>
+    <lastBuildDate>24/04/2024, 12:07</lastBuildDate>
   </channel>
 </rss>
