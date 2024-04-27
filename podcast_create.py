@@ -222,9 +222,9 @@ words = getWords(url)
 
 #generate audio files
 
-#files = ttsmp3Com(words)
+files = ttsmp3Com(words)
 
-files = test()#['0_ru.mp3', '0_de.mp3', '0_syn.mp3', '0_0_x_ru.mp3', '0_0_x_de.mp3', '0_1_x_ru.mp3', '0_1_x_de.mp3', '0_2_x_ru.mp3']
+#files = test()#['0_ru.mp3', '0_de.mp3', '0_syn.mp3', '0_0_x_ru.mp3', '0_0_x_de.mp3', '0_1_x_ru.mp3', '0_1_x_de.mp3', '0_2_x_ru.mp3']
 
 
 #concatunate audio files

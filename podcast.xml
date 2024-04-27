@@ -19,14 +19,27 @@
       <itunes:category text="German"/>
       <itunes:category text="Russian"/>
     </itunes:category>
-    <media:thumbnail url="https://de.fialo.info/podcast.jpg?s=3000&amp;c=66&amp;f=jpg" height="1687" width="3000"/>
-    <itunes:image href="https://de.fialo.info/podcast.jpg?s=1400&amp;c=66&amp;f=jpg"/>
+    <media:thumbnail url="https://de.fialo.info/img/logo.jpg?s=3000&amp;c=66&amp;f=jpg" height="1687" width="3000"/>
+    <itunes:image href="https://de.fialo.info/img/logo.jpg?s=1400&amp;c=66&amp;f=jpg"/>
     <itunes:type>episodic</itunes:type>
     <image>
-      <url>https://de.fialo.info/podcast.jpg</url>
+      <url>https://de.fialo.info/logo.jpg</url>
       <title>Sprichst du Deutsch? podcast</title>
-      <link>https://de.fialo.info/podcast</link>
+      <link>https://de.fialo.info/</link>
     </image>
-    <lastBuildDate>24/04/2024, 12:07</lastBuildDate>
+    <lastBuildDate>27/04/2024, 11:49</lastBuildDate>
+    <Item>
+      <author>fialo4ka</author>
+      <ns5:duration xmlns:ns5="itunes">00:01:45.72</ns5:duration>
+      <title>001</title>
+      <description>der Anfang - &#1085;&#1072;&#1095;&#1072;&#1083;&#1086;&lt;br&gt;anfangen - &#1085;&#1072;&#1095;&#1080;&#1085;&#1072;&#1090;&#1100;&lt;br&gt;der Abschluss - &#1082;&#1086;&#1085;&#1077;&#1094;&lt;br&gt;aufh&#246;ren - &#1087;&#1077;&#1088;&#1077;&#1089;&#1090;&#1072;&#1090;&#1100;, &#1079;&#1072;&#1082;&#1072;&#1085;&#1095;&#1080;&#1074;&#1072;&#1090;&#1100;, &#1087;&#1088;&#1077;&#1082;&#1088;&#1072;&#1090;&#1080;&#1090;&#1100;</description>
+      <pubDate>27/04/2024, 11:49</pubDate>
+      <enclosure url="https://de.fialo.info/mp3/001.mp3" type="audio/mpeg" length=""></enclosure>
+      <ns0:block xmlns:ns0="itunes">no</ns0:block>
+      <ns1:explicit xmlns:ns1="itunes">no</ns1:explicit>
+      <ns2:episodeType xmlns:ns2="itunes">full</ns2:episodeType>
+      <ns3:title xmlns:ns3="itunes">001</ns3:title>
+      <ns4:author xmlns:ns4="itunes">fialo4ka</ns4:author>
+    </Item>
   </channel>
 </rss>
