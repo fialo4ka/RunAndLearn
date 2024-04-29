@@ -1,0 +1,73 @@
+################
+# 0 #
+################
+author = "fialo4ka"
+
+[[word]]
+ru = "мечта, сон"
+de = "der Traum"
+syn = "die Fantasievorstellung, die Illusion, die Selbsttäuschung, die Utopie"
+[[word.ex]]
+de = " ein schöner Traum"
+ru = "красивый сон"
+[[word.ex]]
+de = "er redet im Traum"
+ru = "он разговаривает во сне"
+[[word.ex]]
+de = "der Traum vom Glück"
+ru = "мечта о счастье"
+
+[[word]]
+ru = "мечтать, видеть во сне"
+de = "träumen"
+[word.kon]
+"pres" = "er träumt"
+"prat" = "er träumte"
+"perfekt" = "er hat geträumt"
+[[word.ex]]
+de = "schlecht, unruhig träumen"
+ru = "видеть плохие, беспокойные сны"
+[[word.ex]]
+de = "sie hat von ihrem Vater geträumt"
+ru = "ей снился отец"
+[[word.ex]]
+de = "sie träumte von einer großen Karriere"
+ru = "она мечтала о великой карьере"
+[[word.ex]]
+de = "träum nicht! "
+ru = "не мечтай! будь осторожен"
+
+[[word]]
+ru = "сон"
+de = "der Schlaf"
+[[word.ex]]
+de = "sie hat einen leichten Schlaf"
+ru = "она чутко спит"
+[[word.ex]]
+de = "mittags hielt er seinen Schlaf"
+ru = "в полдень он лег спать"
+
+[[word]]
+ru = "спать"
+de = "schlafen"
+[word.kon]
+"pres" = "er schläft"
+"prat" = "er schlief"
+"perfekt" = "er hat geschlafen"
+[[word.ex]]
+de = "schlafen gehen"
+ru = "идти спать"
+[[word.ex]]
+de = "schlaf gut"
+ru = "спи спокойно"
+[[word.ex]]
+de = " du kannst bei uns schlafen"
+ru = " ты можешь спать с нами"
+
+
+[[word]]
+ru = "самообман"
+de = "die Selbsttäuschung"
+[[word.ex]]
+de = "der Selbsttäuschung erliegen"
+ru = "поддаться самообману"
