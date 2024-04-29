@@ -71,7 +71,7 @@ import os
 def postequest(dataText, language) -> str:
     url = "https://ttsmp3.com/makemp3_new.php"
     headers = {'Content-Type' : 'application/x-www-form-urlencoded'}
-    if language == 0:
+    if language == 1:
         data = {
             'msg' : dataText,
             'lang' : 'Vicki',
@@ -118,9 +118,9 @@ def ttsmp3Com(data) -> list[str]:
         files.append(downloadMp3(str(i) + "_de", word.de, 1))
         files.append(downloadMp3(str(i) + "_ru", word.ru, 0))
         if word.syn: 
-            files.append(downloadMp3(str(i) + "_syn_de", "synonyme: "+ word.syn, 0))
+            files.append(downloadMp3(str(i) + "_syn_de", "synonyme   "+ word.syn, 1))
         if word.kon: 
-            files.append(downloadMp3(str(i) + "_kon_de", "Präsens: " + word.kon.pres + ", Präteritum: " + word.kon.prat + ", Perfekt: " + word.kon.perfekt, 0))
+            files.append(downloadMp3(str(i) + "_kon_de", " " + word.kon.pres + ", " + word.kon.prat + ", " + word.kon.perfekt, 1))
         j = 0
         for example in word.ex:
             files.append(downloadMp3(str(i) + "_" + str(j) + "_x_de", "   " + example.de, 1))
@@ -148,7 +148,7 @@ def getDurationMs(resultMp3) -> int:
 samplerate = 44100
 
 def fanzyConcatFiles(files, title) -> str:
-    result = f"mp3/{title}.mp3"
+    result = f"build/mp3/{title}.mp3"
 
     print(files)
     p_out = subprocess.Popen(['ffmpeg', '-f', 's16le', '-i', '-', result], stdin=subprocess.PIPE)
@@ -175,28 +175,62 @@ def fanzyConcatFiles(files, title) -> str:
 
 import lxml.etree as etree
 from datetime import datetime
+'''
+
+
+def updateRss1(words : Word, resultMp3, duration, title, author) -> None:
+    from feedgen.feed import FeedGenerator
+    fg = FeedGenerator()
+    fg.id('http://lernfunk.de/media/654321')
+    fg.title('Some Testfeed')
+    fg.author( {'name':'John Doe','email':'john@example.de'} )
+    fg.link( href='http://example.com', rel='alternate' )
+    fg.logo('http://ex.com/logo.jpg')
+    fg.subtitle('This is a cool feed!')
+    fg.link( href='http://larskiesow.de/test.atom', rel='self' )
+    fg.language('en')
+    fe = fg.add_entry()
+    fe.id('http://lernfunk.de/media/654321/1')
+    fe.title('The First Episode')
+    fe.link(href="http://lernfunk.de/feed")
+    fg.contributor( name='John Doe', email='jdoe@example.com' )
+    fe.description('Enjoy our first episode.')
+    fe.enclosure('http://lernfunk.de/media/654321/1/file.mp3', 0, 'audio/mpeg')
+    fg.rss_str(pretty=True)
+    fg.rss_file('rss.xml') # Write the RSS feed to a file
+
+'''
+def summaryHtml(words : Word):
+    str = ''
+    for word in words:
+        str = f'{str}<br>{word.de} - {word.ru}'
+        if word.syn: 
+            str = f'{str}<br>synonyme:{word.syn}'
+        if word.kon: 
+            str = f'{str}Präsens:{word.kon.pres}, Präteritum: {word.kon.prat}, Perfekt: {word.kon.perfekt}'
+        for example in word.ex:
+            str = f'{str}<br>{example.de} - {example.ru}'
+        str = f'{str}<br>'
+    return str
 
 def updateRss(words : Word, resultMp3, duration, title, author) -> None:
-    xmlfilepath='podcast.xml' 
+    xmlfilepath='build/podcast.xml' 
     tree = etree.parse(xmlfilepath)
-    channel = tree.xpath('//rss/channel')[0]
+    print(etree.tostring(tree, pretty_print=True))
+    channel = tree.getroot()
+    print(channel)
     dateNow = datetime.now().strftime("%d/%m/%Y, %H:%M")
-    date = tree.xpath('//rss/channel/lastBuildDate')
-    date[0].text = dateNow
-    itunes = 'http://www.itunes.com/dtds/podcast-1.0.dtd'
-    item = etree.SubElement(channel, 'Item')
+    item = etree.SubElement(channel, 'entry')
     etree.SubElement(item, 'author').text = author  
     etree.SubElement(item, 'title').text = title
-    etree.SubElement(item, 'description').text = '<br>'.join(f'{word.de} - {word.ru}' for word in words)    
-    etree.SubElement(item, 'pubDate').text = dateNow   
-    etree.SubElement(item, 'enclosure', url=resultMp3,type="audio/mpeg", length=""  ).text = ''  
-    etree.SubElement(item, '{itunes}block').text = 'no'
-    etree.SubElement(item, '{itunes}explicit').text = 'no'
-    etree.SubElement(item, '{itunes}episodeType').text = 'full'
-    etree.SubElement(item, '{itunes}title').text = title
-    etree.SubElement(item, '{itunes}author').text = author 
-    etree.SubElement(item, '{itunes}duration').text = duration
-    item.insert(1, item[-1])
+    etree.SubElement(item, 'summary').text =  summaryHtml(words) 
+    etree.SubElement(item, 'updated').text = dateNow   
+    etree.SubElement(item, 'link', href=f'https://de.fialo.info/mp3/{title}.mp3', rel="enclosure", length=str(getDurationMs(resultMp3)), type="audio/mpeg").text = ''  
+    etree.SubElement(item, 'id').text = f'urn:uuid:1225c695-cfb8-asde-aaaa-{datetime.now().strftime("%d%m%Y%H%M")}'
+    item.insert(1, item[-1])    
+    date = tree.xpath('//feed/updated') 
+    print(date)
+    #date[0].text = dateNow
     with open(xmlfilepath, 'wb') as filetowrite:
         filetowrite.write('<?xml version=\"1.0\" encoding=\"UTF-8\"?>'.encode() +    etree.tostring(tree, pretty_print=True)     ) 
         filetowrite.close()
@@ -214,23 +248,93 @@ def test():
     return result
 
 
+from bs4 import BeautifulSoup as Soup
+
+def htmlTableRow(soup, table, word_de, word_ru):
+    new_tr = soup.new_tag("tr", **{'style':'border-bottom: 1px solid #ddd;'})
+    new_td1 = soup.new_tag("td")
+    new_td2 = soup.new_tag("td")
+    new_td1.string = word_de
+    new_td2.string = word_ru
+    new_tr.append(new_td1)
+    new_tr.append(new_td2)
+    table.append(new_tr)
+    return table
+
+def htmlTable(words, soup, table):
+    for word in words:
+        table = htmlTableRow(soup, table, word.de, word.ru)
+        if word.syn: 
+            table = htmlTableRow(soup, table, "synonyme: "+ word.syn,'')
+        if word.kon: 
+            table = htmlTableRow(soup, table, " " + word.kon.pres + ", " + word.kon.prat + ", " + word.kon.perfekt,'')
+        for example in word.ex:
+            table =  htmlTableRow(soup, table, example.de,  example.ru)
+    return table
+
+def updateHtml(title, author, words : Word):
+    htmlfilepath='build/index.html' 
+    html = ''
+    with open(htmlfilepath, 'r') as file:
+        html = file.read()
+    soup = Soup(html, 'lxml')
+    entry_place = soup.find("hr", {"id": "entry_place"}) 
+    h2 = soup.new_tag('h2', {"id": title}, **{'class':'w3-center'})
+    h2.string = title
+    entry_place.insert_before(h2)
+    h5 = soup.new_tag('h5', **{'class':'w3-center'})
+    h5.string = f'Author {author}' 
+    entry_place.insert_before(h5)
+    table = soup.new_tag('table', **{'class':'w3-table-all w3-card-4'})
+    table = htmlTable(words, soup, table)
+    entry_place.insert_before(table)
+    with open(htmlfilepath, "w") as file:
+        file.write(str(soup))
+    
+'''
+########
+# MAIN #
+########
+
+
 #load toml
-url = "topics/001.toml"
+url = "topics/003.toml"
 title = getTitle(url)
 author = getAuthor(url)
 words = getWords(url)
-
 #generate audio files
-
 files = ttsmp3Com(words)
-
-#files = test()#['0_ru.mp3', '0_de.mp3', '0_syn.mp3', '0_0_x_ru.mp3', '0_0_x_de.mp3', '0_1_x_ru.mp3', '0_1_x_de.mp3', '0_2_x_ru.mp3']
-
-
 #concatunate audio files
 resultMp3 = fanzyConcatFiles(files, title)
 duration = getDurationStr(resultMp3)
-
 #update rss
 updateRss(words, resultMp3, duration, title, author)
+#update html
+updateHtml(title, author, words)
 
+'''
+
+#############
+#test
+############
+
+#1. all files in 1 mp3
+
+#files = test()
+#resultMp3 = fanzyConcatFiles(files, title)
+
+#2. Rss
+# url = "topics/002.toml"
+# words = getWords(url)
+# title = getTitle(url)
+# author = getAuthor(url)
+# duration = getDurationStr('build/mp3/001.mp3')
+# updateRss(words, "build/mp3/001.mp3", duration, title, author)
+
+#3 Html generation
+
+url = "topics/002.toml"
+title = getTitle(url)
+author = getAuthor(url)
+words = getWords(url)
+updateHtml(title, author, words)

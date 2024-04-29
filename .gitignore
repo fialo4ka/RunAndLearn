@@ -4,3 +4,5 @@ topics/00 copy 3.toml
 podcast_rss_feed.xml
 podcast_0.xml
 temp/*
+howToDeplow.md
+/venv
