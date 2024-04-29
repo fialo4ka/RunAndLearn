@@ -207,7 +207,7 @@ def summaryHtml(words : Word):
         if word.syn: 
             str = f'{str}<br>synonyme:{word.syn}'
         if word.kon: 
-            str = f'{str}Präsens:{word.kon.pres}, Präteritum: {word.kon.prat}, Perfekt: {word.kon.perfekt}'
+            str = f'{str}<br>Präsens:{word.kon.pres}, Präteritum: {word.kon.prat}, Perfekt: {word.kon.perfekt}'
         for example in word.ex:
             str = f'{str}<br>{example.de} - {example.ru}'
         str = f'{str}<br>'
