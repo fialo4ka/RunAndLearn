@@ -251,7 +251,7 @@ def test():
 from bs4 import BeautifulSoup as Soup
 
 def htmlTableRow(soup, table, word_de, word_ru):
-    new_tr = soup.new_tag("tr", **{'style':'border-bottom: 1px solid #ddd;'})
+    new_tr = soup.new_tag("tr")
     new_td1 = soup.new_tag("td")
     new_td2 = soup.new_tag("td")
     new_td1.string = word_de
@@ -291,14 +291,14 @@ def updateHtml(title, author, words : Word):
     with open(htmlfilepath, "w") as file:
         file.write(str(soup))
     
-'''
+
 ########
 # MAIN #
 ########
 
 
 #load toml
-url = "topics/003.toml"
+url = "topics/004.toml"
 title = getTitle(url)
 author = getAuthor(url)
 words = getWords(url)
@@ -312,7 +312,7 @@ updateRss(words, resultMp3, duration, title, author)
 #update html
 updateHtml(title, author, words)
 
-'''
+''''''
 
 #############
 #test
@@ -333,8 +333,8 @@ updateHtml(title, author, words)
 
 #3 Html generation
 
-url = "topics/002.toml"
-title = getTitle(url)
-author = getAuthor(url)
-words = getWords(url)
-updateHtml(title, author, words)
+# url = "topics/002.toml"
+# title = getTitle(url)
+# author = getAuthor(url)
+# words = getWords(url)
+# updateHtml(title, author, words)
