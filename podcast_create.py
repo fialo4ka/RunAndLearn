@@ -222,7 +222,7 @@ def updateRss(words : Word, resultMp3, duration, title, author) -> None:
     dateNow = datetime.now().strftime("%d/%m/%Y, %H:%M")
     item = etree.SubElement(channel, 'entry')
     etree.SubElement(item, 'author').text = author  
-    etree.SubElement(item, 'title').text = title
+    etree.SubElement(item, 'title').text = f'{title} {words[0].de}'
     etree.SubElement(item, 'summary').text =  summaryHtml(words) 
     etree.SubElement(item, 'updated').text = dateNow   
     etree.SubElement(item, 'link', href=f'https://de.fialo.info/mp3/{title}.mp3', rel="enclosure", length=str(getDurationMs(resultMp3)), type="audio/mpeg").text = ''  
@@ -280,7 +280,7 @@ def updateHtml(title, author, words : Word):
     soup = Soup(html, 'lxml')
     entry_place = soup.find("hr", {"id": "entry_place"}) 
     h2 = soup.new_tag('h2', {"id": title}, **{'class':'w3-center'})
-    h2.string = title
+    h2.string = f'{title} {words[0].de}'
     entry_place.insert_before(h2)
     h5 = soup.new_tag('h5', **{'class':'w3-center'})
     h5.string = f'Author {author}' 
@@ -298,7 +298,7 @@ def updateHtml(title, author, words : Word):
 
 
 #load toml
-url = "topics/004.toml"
+url = "topics/005.1.toml"
 title = getTitle(url)
 author = getAuthor(url)
 words = getWords(url)
@@ -328,8 +328,9 @@ updateHtml(title, author, words)
 # words = getWords(url)
 # title = getTitle(url)
 # author = getAuthor(url)
-# duration = getDurationStr('build/mp3/001.mp3')
-# updateRss(words, "build/mp3/001.mp3", duration, title, author)
+# resultMp3 = f'build/mp3/{title}.mp3'
+# duration = getDurationStr(resultMp3)
+# updateRss(words, resultMp3, duration, title, author)
 
 #3 Html generation
 
@@ -337,4 +338,14 @@ updateHtml(title, author, words)
 # title = getTitle(url)
 # author = getAuthor(url)
 # words = getWords(url)
+# updateHtml(title, author, words)
+
+#2. Rss +HTML
+# url = "topics/003.toml"
+# words = getWords(url)
+# title = getTitle(url)
+# author = getAuthor(url)
+# resultMp3 = f'build/mp3/{title}.mp3'
+# duration = getDurationStr(resultMp3)
+# updateRss(words, resultMp3, duration, title, author)
 # updateHtml(title, author, words)

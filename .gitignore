@@ -6,3 +6,5 @@ podcast_0.xml
 temp/*
 howToDeplow.md
 /venv
+build/mp3/004.mp3
+build/mp3/005.0.mp3
