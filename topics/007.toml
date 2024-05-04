@@ -21,7 +21,21 @@ ru = ""
 de = "freuen"
 syn = ""
 [[word.ex]]
-de = ""
+de = "das hat mich sehr gefreut"
+ru = ""
+[[word.ex]]
+de = "Ich freue mich sehr auf das Konzert"
+ru = ""
+[[word.ex]]
+de = "Ich bin sehr froh, das "
+ru = ""
+
+[[word]]
+ru = ""
+de = "liben"
+syn = ""
+[[word.ex]]
+de = "Ich liebe Schocolade besonders gern"
 ru = ""
 [[word.ex]]
 de = ""
@@ -31,8 +45,22 @@ de = ""
 ru = ""
 
 [[word]]
+ru = "любимый, излюбленный к вещам"
+de = "lieblings"
+syn = ""
+[[word.ex]]
+de = "der Lieblingsfilm"
 ru = ""
-de = ""
+[[word.ex]]
+de = "Der Lieblingsessel"
+ru = ""
+[[word.ex]]
+de = "die Liebliengsspeise"
+ru = "любимое блюдо"
+
+[[word]]
+ru = "подарок"
+de = "das Geschenk"
 syn = ""
 [[word.ex]]
 de = ""
@@ -45,36 +73,8 @@ de = ""
 ru = ""
 
 [[word]]
-ru = ""
-de = ""
-syn = ""
-[[word.ex]]
-de = ""
-ru = ""
-[[word.ex]]
-de = ""
-ru = ""
-[[word.ex]]
-de = ""
-ru = ""
-
-[[word]]
-ru = ""
-de = ""
-syn = ""
-[[word.ex]]
-de = ""
-ru = ""
-[[word.ex]]
-de = ""
-ru = ""
-[[word.ex]]
-de = ""
-ru = ""
-
-[[word]]
-ru = ""
-de = ""
+ru = "дарить"
+de = "schenken"
 syn = ""
 [[word.ex]]
 de = ""
@@ -92,4 +92,46 @@ ru = ""
 "perfekt" = ""
 
 
+[[word]]
+ru = "праздник"
+de = "die Feier"
+syn = ""
+[[word.ex]]
+de = ""
+ru = ""
+[[word.ex]]
+de = ""
+ru = ""
+[[word.ex]]
+de = ""
+ru = ""
 
+
+[[word]]
+ru = "праздновать"
+de = "feiern"
+syn = ""
+[[word.ex]]
+de = ""
+ru = ""
+[[word.ex]]
+de = ""
+ru = ""
+[[word.ex]]
+de = ""
+ru = ""
+
+
+[[word]]
+ru = ""
+de = ""
+syn = ""
+[[word.ex]]
+de = ""
+ru = ""
+[[word.ex]]
+de = ""
+ru = ""
+[[word.ex]]
+de = ""
+ru = ""
