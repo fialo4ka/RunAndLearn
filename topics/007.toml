@@ -1,0 +1,95 @@
+################
+# 0 #
+################
+
+[[word]]
+ru = ""
+de = "Freude"
+syn = ""
+[[word.ex]]
+de = "Freude ausdrüken"
+ru = ""
+[[word.ex]]
+de = ""
+ru = ""
+[[word.ex]]
+de = ""
+ru = ""
+
+[[word]]
+ru = ""
+de = "freuen"
+syn = ""
+[[word.ex]]
+de = ""
+ru = ""
+[[word.ex]]
+de = ""
+ru = ""
+[[word.ex]]
+de = ""
+ru = ""
+
+[[word]]
+ru = ""
+de = ""
+syn = ""
+[[word.ex]]
+de = ""
+ru = ""
+[[word.ex]]
+de = ""
+ru = ""
+[[word.ex]]
+de = ""
+ru = ""
+
+[[word]]
+ru = ""
+de = ""
+syn = ""
+[[word.ex]]
+de = ""
+ru = ""
+[[word.ex]]
+de = ""
+ru = ""
+[[word.ex]]
+de = ""
+ru = ""
+
+[[word]]
+ru = ""
+de = ""
+syn = ""
+[[word.ex]]
+de = ""
+ru = ""
+[[word.ex]]
+de = ""
+ru = ""
+[[word.ex]]
+de = ""
+ru = ""
+
+[[word]]
+ru = ""
+de = ""
+syn = ""
+[[word.ex]]
+de = ""
+ru = ""
+[[word.ex]]
+de = ""
+ru = ""
+[[word.ex]]
+de = ""
+ru = ""
+
+[word.kon]
+"pres" = ""
+"prat" = ""
+"perfekt" = ""
+
+
+
