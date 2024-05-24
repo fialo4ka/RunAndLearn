@@ -290,27 +290,44 @@ def updateHtml(title, author, words : Word):
     entry_place.insert_before(table)
     with open(htmlfilepath, "w") as file:
         file.write(str(soup))
-    
+
+def fileNamesFromWords(words):
+    files = []
+    i = 0
+    for word in words:
+        files.append("temp/" + str(i) + "_de.mp3")
+        files.append("temp/" + str(i) + "_ru.mp3")
+        if word.syn: 
+            files.append("temp/" + str(i) + "_syn_de.mp3")
+        if word.kon: 
+            files.append("temp/" + str(i) + "_kon_de.mp3")
+        j = 0
+        for example in word.ex:
+            files.append("temp/" + str(i) + "_" + str(j) + "_x_de.mp3")
+            files.append("temp/" + str(i) + "_" + str(j) + "_x_ru.mp3")
+            j = j +1
+        i = i + 1
+    return files
 
 ########
 # MAIN #
 ########
 
 
-#load toml
-url = "topics/005.1.toml"
-title = getTitle(url)
-author = getAuthor(url)
-words = getWords(url)
-#generate audio files
-files = ttsmp3Com(words)
-#concatunate audio files
-resultMp3 = fanzyConcatFiles(files, title)
-duration = getDurationStr(resultMp3)
-#update rss
-updateRss(words, resultMp3, duration, title, author)
-#update html
-updateHtml(title, author, words)
+# #load toml
+# url = "topics/007.toml"
+# title = getTitle(url)
+# author = getAuthor(url)
+# words = getWords(url)
+# #generate audio files
+# files = ttsmp3Com(words)
+# #concatunate audio files
+# resultMp3 = fanzyConcatFiles(files, title)
+# duration = getDurationStr(resultMp3)
+# #update rss
+# updateRss(words, resultMp3, duration, title, author)
+# #update html
+# updateHtml(title, author, words)
 
 ''''''
 
@@ -320,8 +337,21 @@ updateHtml(title, author, words)
 
 #1. all files in 1 mp3
 
-#files = test()
-#resultMp3 = fanzyConcatFiles(files, title)
+# url = "topics/007.toml"
+# title = getTitle(url)
+# filesInFolder = sorted(test())
+# print(filesInFolder)
+# resultMp3 = fanzyConcatFiles(filesInFolder, title)
+
+#1. all files in 1 mp3
+
+# url = "topics/007.toml"
+# title = getTitle(url)
+# words = getWords(url)
+# print(words)
+# files = fileNamesFromWords(words)
+# print(files)
+# resultMp3 = fanzyConcatFiles(files, title)
 
 #2. Rss
 # url = "topics/002.toml"
@@ -341,11 +371,11 @@ updateHtml(title, author, words)
 # updateHtml(title, author, words)
 
 #2. Rss +HTML
-# url = "topics/003.toml"
-# words = getWords(url)
-# title = getTitle(url)
-# author = getAuthor(url)
-# resultMp3 = f'build/mp3/{title}.mp3'
-# duration = getDurationStr(resultMp3)
-# updateRss(words, resultMp3, duration, title, author)
-# updateHtml(title, author, words)
+url = "topics/007.toml"
+words = getWords(url)
+title = getTitle(url)
+author = getAuthor(url)
+resultMp3 = f'build/mp3/{title}.mp3'
+duration = getDurationStr(resultMp3)
+updateRss(words, resultMp3, duration, title, author)
+updateHtml(title, author, words)

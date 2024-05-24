@@ -1,137 +1,288 @@
-################
-# 0 #
-################
+author = "fialo4ka"
 
 [[word]]
-ru = ""
-de = "Freude"
-syn = ""
-[[word.ex]]
-de = "Freude ausdrüken"
-ru = ""
-[[word.ex]]
-de = ""
-ru = ""
-[[word.ex]]
-de = ""
-ru = ""
+ru = "прилагательное"
+de = "das Adjektiv"
 
 [[word]]
-ru = ""
-de = "freuen"
+ru = "громкий, шумный"
+de = "laut"
 syn = ""
 [[word.ex]]
-de = "das hat mich sehr gefreut"
-ru = ""
+de = "laute Musik"
+ru = "громкая музыка"
 [[word.ex]]
-de = "Ich freue mich sehr auf das Konzert"
-ru = ""
-[[word.ex]]
-de = "Ich bin sehr froh, das "
-ru = ""
+de = "eine laute Straße"
+ru = "шумная улица"
 
 [[word]]
-ru = ""
-de = "liben"
-syn = ""
+ru = "тихий"
+de = "leise"
 [[word.ex]]
-de = "Ich liebe Schocolade besonders gern"
-ru = ""
+de = "eine leise Stimme"
+ru = "тихий голос"
 [[word.ex]]
-de = ""
-ru = ""
-[[word.ex]]
-de = ""
-ru = ""
+de = "ein leises Unbehagen"
+ru = " небольшое беспокойство"
 
 [[word]]
-ru = "любимый, излюбленный к вещам"
-de = "lieblings"
-syn = ""
+ru = "тихий, спокойный"
+de = "ruhig"
 [[word.ex]]
-de = "der Lieblingsfilm"
-ru = ""
+de = "ruhiges Zimmer zu vermieten"
+ru = "сдается тихая комната"
 [[word.ex]]
-de = "Der Lieblingsessel"
-ru = ""
+de = "die Sitzung verlief ruhig"
+ru = "встреча прошла спокойно"
 [[word.ex]]
-de = "die Liebliengsspeise"
-ru = "любимое блюдо"
+de = "ein ruhiger Mensch"
+ru = "спокойный человек"
 
 [[word]]
-ru = "подарок"
-de = "das Geschenk"
-syn = ""
+ru = "тихий, молчаливый"
+de = "still"
 [[word.ex]]
-de = ""
-ru = ""
+de = "ein stilles Dorf"
+ru = "тихая деревня"
 [[word.ex]]
-de = ""
-ru = ""
-[[word.ex]]
-de = ""
-ru = ""
-
-[[word]]
-ru = "дарить"
-de = "schenken"
-syn = ""
-[[word.ex]]
-de = ""
-ru = ""
-[[word.ex]]
-de = ""
-ru = ""
-[[word.ex]]
-de = ""
-ru = ""
-
-[word.kon]
-"pres" = ""
-"prat" = ""
-"perfekt" = ""
+de = "das Kind kann nicht lange still sitzen"
+ru = "ребенок не может долго тихо сидеть"
 
 
 [[word]]
-ru = "праздник"
-de = "die Feier"
-syn = ""
+ru = "мягкий"
+de = "weich"
 [[word.ex]]
-de = ""
-ru = ""
+de = "weich gekochtes Ei"
+ru = "яйцо всмятку"
 [[word.ex]]
-de = ""
-ru = ""
+de = "die Butter ist weich geworden "
+ru = "масло стало мягким"
+
+[[word]]
+ru = "твердый, тяжелый"
+de = "hart"
 [[word.ex]]
-de = ""
-ru = ""
+de = "hart gekochtes Ei"
+ru = "яйцо вкрутую"
+[[word.ex]]
+de = "ein harter Stein"
+ru = "твердый камень"
+[[word.ex]]
+de = "harte Arbeit"
+ru = "тяжелая работа"
+
+[[word]]
+ru = "быстрый"
+de = "schnell"
+[[word.ex]]
+de = "eine schnelle Fahrt"
+ru = "быстрая поездка"
+[[word.ex]]
+de = "das geht mir zu schnell "
+ru = "для меня это происходит слишком быстро"
+[[word.ex]]
+de = "du bist zu schnell"
+ru = "ты слишком быстр"
+
+[[word]]
+ru = "медленный"
+de = "langsam"
+[[word.ex]]
+de = "er spazierte langsam durch den Park"
+ru = "он медленно шел по парку"
+[[word.ex]]
+de = "er arbeitet, denkt sehr langsam"
+ru = "он работает, думает очень медленно"
+
+[[word]]
+ru = " красивый"
+de = "schön"
+[[word.ex]]
+de = " das Bild ist schön geworden"
+ru = "картинка получилась красивой"
+
+[[word]]
+ru = "некрасивый, безобра́зный"
+de = "hässlich"
+[[word.ex]]
+de = "Ärger macht hässlich"
+ru = "Гнев делает тебя уродливым"
+[[word.ex]]
+de = " hässliches Wetter"
+ru = " ужасная погода"
+
+[[word]]
+ru = "дружелюбный "
+de = "freundlich"
+[[word.ex]]
+de = "ein freundliches Gesicht machen"
+ru = "сделать дружелюбное лицо"
+
+[[word]]
+ru = "чужой "
+de = "fremd"
+[[word.ex]]
+de = "fremde Sprachen lernen"
+ru = "изучать иностранные языки"
+[[word.ex]]
+de = "fremde Leute"
+ru = "незнакомцы"
+
+[[word]]
+ru = " глупый"
+de = "dumm"
+[[word.ex]]
+de = "ein dummer Mensch"
+ru = " глупый человек"
+
+[[word]]
+ru = "умный"
+de = "klug"
+syn = "intelligent"
+[[word.ex]]
+de = "ein kluger Mensch"
+ru = "умный человек"
+[[word.ex]]
+de = "ein kluger Rat"
+ru = "мудрый совет"
+
+[[word]]
+ru = "свежий "
+de = "frisch"
+[[word.ex]]
+de = "frische Fische"
+ru = "свежая рыба"
+
+[[word]]
+ru = "похожый "
+de = "ähnlich"
+[[word.ex]]
+de = "ähnliche Gedanken"
+ru = "похожие мысли"
+[[word.ex]]
+de = "ein sehr ähnliches Porträt"
+ru = "очень похожий портрет"
+
+[[word]]
+ru = "непохожый"
+de = "unähnlich"
+
+[[word]]
+ru = "настоящий"
+de = "echt"
+[[word.ex]]
+de = "die Unterschrift ist echt"
+ru = "подпись настоящая"
+
+[[word]]
+ru = "ранний"
+de = "früh"
+[[word.ex]]
+de = "am frühen Morgen"
+ru = "раннее утро"
+[[word.ex]]
+de = "sie hat früh geheiratet"
+ru = "она рано вышла замуж"
+
+[[word]]
+ru = "поздний"
+de = "spät"
+[[word.ex]]
+de = "bis in die späte Nacht"
+ru = "до поздней ночи"
+[[word.ex]]
+de = "mit einem späteren Zug fahren"
+ru = "сесть на более поздний поезд"
+
+[[word]]
+ru = "известный, знакомый"
+de = "bekannt"
+[[word.ex]]
+de = "eine bekannte Melodie"
+ru = "знакомая мелодия"
+
+[[word]]
+ru = "смелый"
+de = "mutig"
+[[word.ex]]
+de = "ein mutiger Mensch"
+ru = "храбрый человек"
+
+[[word]]
+ru = "трусливый"
+de = "feige"
+[[word.ex]]
+de = "feige Ausreden"
+ru = "трусливые оправдания"
+
+[[word]]
+ru = "осторожный"
+de = "vorsichtig"
+[[word.ex]]
+de = "mit vorsichtigen Schritten"
+ru = "с осторожными шагами"
+[[word.ex]]
+de = "fahr bitte vorsichtig!"
+ru = "пожалуйста, водите осторожно!"
+  
+[[word]]
+ru = "неправильный"
+de = "falsch"
+
+[[word]]
+ru = "правильный"
+de = "richtig"
+
+[[word]]
+ru = "дорогой "
+de = "teuer"
+[[word.ex]]
+de = "das Kleid ist mir zu teuer"
+ru = "платье слишком дорого для меня"
 
 
 [[word]]
-ru = "праздновать"
-de = "feiern"
-syn = ""
+ru = "дешевый"
+de = "billig"
 [[word.ex]]
-de = ""
-ru = ""
-[[word.ex]]
-de = ""
-ru = ""
-[[word.ex]]
-de = ""
-ru = ""
-
+de = "billiges Obst"
+ru = "дешевые фрукты"
 
 [[word]]
-ru = ""
-de = ""
-syn = ""
+ru = "богатый "
+de = "reich"
 [[word.ex]]
-de = ""
-ru = ""
+de = "reich werden"
+ru = "разбогатеть "
+
+[[word]]
+ru = "бедный"
+de = "arm"
 [[word.ex]]
-de = ""
-ru = ""
+de = "eine arme Familie"
+ru = "бедная семья"
+
+[[word]]
+ru = "пустой"
+de = "leer"
 [[word.ex]]
-de = ""
-ru = ""
+de = "eine leere Kiste"
+ru = "пустая коробка"
+
+[[word]]
+ru = "полный"
+de = "voll"
+[[word.ex]]
+de = "ein Herz voll Liebe"
+ru = "сердце, полное любви"
+[[word.ex]]
+de = "völlig betrunken"
+ru = "совершенно пьян"
+ 
+[[word]]
+ru = "целый"
+de = "ganz"
+[[word.ex]]
+de = "wir haben drei ganze Flaschen Wein getrunken"
+ru = " мы выпили целых три бутылки вина"

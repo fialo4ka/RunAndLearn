@@ -1,0 +1,104 @@
+################
+# 5,1 #
+################
+author = "fialo4ka"
+
+[[word]]
+ru = "Кухня"
+de = "die Küche"
+[[word.ex]]
+de = " Wo ist die Küche?"
+ru = "Где кухня?"
+[[word.ex]]
+de = "Die Küche ist unten."
+ru = "Кухня внизу"
+
+[[word]]
+ru = "вкусно"
+de = "lecker"
+[[word.ex]]
+de = "der Kuchen ist sehr lecker"
+ru = "торт очень вкусный"
+
+[[word]]
+ru = "соленый"
+de = "salzig"
+
+[[word]]
+ru = "сладкий"
+de = "süß"
+
+[[word]]
+ru = "сгоревший"
+de = "gebrannt"
+
+[[word]]
+ru = "кислый"
+de = "sauer"
+[[word.ex]]
+de = "der Sauerrahm"
+ru = "сметана"
+[[word.ex]]
+de = "das Sauerkraut"
+ru = "квашеная капуста"
+
+[[word]]
+ru = "острый"
+de = "scharf"
+
+[[word]]
+ru = "сочный"
+de = "saftig"
+
+[[word]]
+ru = "свежий"
+de = "frisch"
+
+[[word]]
+ru = "мягкий"
+de = "weich"
+
+[[word]]
+ru = "твердый"
+de = "hart"
+[[word.ex]]
+de = "hart gekochtes Ei"
+ru = "яйцо вкрутую"
+
+[[word]]
+ru = "хрустящий"
+de = "knusprig"
+
+[[word]]
+ru = "жирный"
+de = "fettig"
+[[word.ex]]
+de = "fettiges Papier"
+ru = "жирная бумага"
+[[word.ex]]
+de = " Ich hasse fettiges Essen"
+ru = "ненавижу жирную еду"
+
+[[word]]
+ru = "низкокалорийный"
+de = "kalorienarm"
+
+[[word]]
+ru = "высококалорийный"
+de = "kalorienreich"
+
+[[word]]
+ru = "Фрукты"
+de = "das Obst"
+
+[[word]]
+ru = "Овощи"
+de = "das Gemüse"
+
+[[word]]
+ru = "напиток"
+de = "das Getränk"
+
+[[word]]
+ru = "сладость "
+de = "die Süßigkeit"

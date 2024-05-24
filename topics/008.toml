@@ -1,32 +1,64 @@
-################
-# 8 #
-################
-
-громко тихо laut leise
-мягко твердо weich hart
-быстро медленно schnell langsam
-schön красиво hässlich некрасиво
-дружелюбный freundlich
-чужой fremd
-dumm глупый klug умный
-свежий frisch
-ähnlich unähnlich похожий непохожий
-früh spät ранний поздний 
-настоящий echt
-известный, знакомый bekannt
-смелый mutig трусливый feige
-ruhig спокойный
-vorsichtig осторожный
-falsch неправильный richtig правильный
-дорогой дешевый
-богатый бедный
-целый
-пустой полный
-
+author = "fialo4ka"
 
 [[word]]
 ru = ""
+de = "Freude"
+syn = ""
+[[word.ex]]
+de = "Freude ausdrüken"
+ru = ""
+[[word.ex]]
 de = ""
+ru = ""
+[[word.ex]]
+de = ""
+ru = ""
+
+[[word]]
+ru = ""
+de = "freuen"
+syn = ""
+[[word.ex]]
+de = "das hat mich sehr gefreut"
+ru = ""
+[[word.ex]]
+de = "Ich freue mich sehr auf das Konzert"
+ru = ""
+[[word.ex]]
+de = "Ich bin sehr froh, das "
+ru = ""
+
+[[word]]
+ru = ""
+de = "liben"
+syn = ""
+[[word.ex]]
+de = "Ich liebe Schocolade besonders gern"
+ru = ""
+[[word.ex]]
+de = ""
+ru = ""
+[[word.ex]]
+de = ""
+ru = ""
+
+[[word]]
+ru = "любимый, излюбленный к вещам"
+de = "lieblings"
+syn = ""
+[[word.ex]]
+de = "der Lieblingsfilm"
+ru = ""
+[[word.ex]]
+de = "Der Lieblingsessel"
+ru = ""
+[[word.ex]]
+de = "die Liebliengsspeise"
+ru = "любимое блюдо"
+
+[[word]]
+ru = "подарок"
+de = "das Geschenk"
 syn = ""
 [[word.ex]]
 de = ""
@@ -39,8 +71,8 @@ de = ""
 ru = ""
 
 [[word]]
-ru = ""
-de = ""
+ru = "дарить"
+de = "schenken"
 syn = ""
 [[word.ex]]
 de = ""
@@ -51,21 +83,6 @@ ru = ""
 [[word.ex]]
 de = ""
 ru = ""
-
-[[word]]
-ru = ""
-de = ""
-syn = ""
-[[word.ex]]
-de = ""
-ru = ""
-[[word.ex]]
-de = ""
-ru = ""
-[[word.ex]]
-de = ""
-ru = ""
-
 
 [word.kon]
 "pres" = ""
@@ -73,4 +90,46 @@ ru = ""
 "perfekt" = ""
 
 
+[[word]]
+ru = "праздник"
+de = "die Feier"
+syn = ""
+[[word.ex]]
+de = ""
+ru = ""
+[[word.ex]]
+de = ""
+ru = ""
+[[word.ex]]
+de = ""
+ru = ""
 
+
+[[word]]
+ru = "праздновать"
+de = "feiern"
+syn = ""
+[[word.ex]]
+de = ""
+ru = ""
+[[word.ex]]
+de = ""
+ru = ""
+[[word.ex]]
+de = ""
+ru = ""
+
+
+[[word]]
+ru = ""
+de = ""
+syn = ""
+[[word.ex]]
+de = ""
+ru = ""
+[[word.ex]]
+de = ""
+ru = ""
+[[word.ex]]
+de = ""
+ru = ""
