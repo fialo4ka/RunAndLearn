@@ -1,135 +1,249 @@
 author = "fialo4ka"
 
 [[word]]
-ru = ""
-de = "Freude"
-syn = ""
+ru = "предлог"
+de = "die Prä­po­si­ti­on"
+
+[[word]]
+ru = "Dativ ab, aus, bei, nach, seit, von, zu, außer, mit, entgegen, gegenüber"
+de = "используется только с дательным падежом"
+
+[[word]]
+ru = "с определенного времени"
+de = "ab"
 [[word.ex]]
-de = "Freude ausdrüken"
-ru = ""
+de = "Ab diesem Montag habe ich Zeit."
+ru = "У меня есть время с этого понедельника."
+
+[[word]]
+ru = "из"
+de = "aus"
 [[word.ex]]
-de = ""
-ru = ""
+de = "Er kommt aus dem Haus"
+ru = "Он идет из дома."
+
+[[word]]
+ru = "при у возле"
+de = "bei"
 [[word.ex]]
-de = ""
-ru = ""
+de = "Monika wohnt bei der Frau"
+ru = "Моника живет у женщины"
+[[word.ex]]
+de = "wir versammeln uns bei der Schule"
+ru = "мы собираемся возле школы"
+
+[[word]]
+ru = "в, после через"
+de = "nach"
+[[word.ex]]
+de = "Nach dem Film schlafe ich"
+ru = "После фильма я сплю"
+
+[[word]]
+ru = "с тех пор"
+de = "seit"
+[[word.ex]]
+de = "Seit einem Jahr ist er in Salzburg"
+ru = "Он находится в Зальцбурге уже год"
+
+[[word]]
+ru = "от"
+de = "von"
+[[word.ex]]
+de = "Ich komme von meinem Chef"
+ru = "Я иду от моего босса"
+
+[[word]]
+ru = "к"
+de = "zu"
+[[word.ex]]
+de = "Er geht zu dem Direktor"
+ru = "Он идет к директору"
+
+[[word]]
+ru = "кроме"
+de = "außer"
+[[word.ex]]
+de = "Ich esse nichts außer der Semmel"
+ru = "Я ничего не ел, кроме булочки"
+
+[[word]]
+ru = "с"
+de = "mit"
+[[word.ex]]
+de = "Sie arbeitet mit dem Mann"
+ru = "Она работает с мужчиной"
+
+[[word]]
+ru = "навстречу вопреки"
+de = "entgegen"
+[[word.ex]]
+de = "Er geht seinem Vater entgegen"
+ru = "Он идет навстречу отцу"
+
+[[word]]
+ru = "напротив"
+de = "gegenüber"
+[[word.ex]]
+de = "Sie wohnt dem Lehrer gegenüber"
+ru = "Она живет напротив учителя"
+
+[[word]]
+ru = "Akkusativ bis, durch, für, gegen, ohne, um, wider, entlang"
+de = "используется только с винительным падежом"
+
+[[word]]
+ru = "до"
+de = "bis"
+[[word.ex]]
+de = "Bis diesen Montag bin ich in Wien"
+ru = "до этого понедельника я буду в Вене"
+
+[[word]]
+ru = "через, сквозь"
+de = "durch"
+[[word.ex]]
+de = "Ich gehe durch die Stadt"
+ru = "Я иду по городу"
+
+[[word]]
+ru = "для"
+de = "für"
+[[word.ex]]
+de = "Er arbeitet für den Chef"
+ru = "Он работает на босса"
+
+[[word]]
+ru = "против"
+de = "gegen"
+[[word.ex]]
+de = "Das Schiff fährt gegen den Wind"
+ru = "Корабль плывет против ветра"
+
+[[word]]
+ru = "без"
+de = "ohne"
+[[word.ex]]
+de = "Sie schläft nicht ohne den Stoffhasen"
+ru = "Она не будет спать без плюшевого кролика"
+
+[[word]]
+ru = "вокруг"
+de = "um"
+[[word.ex]]
+de = "Markus geht um den Tisch"
+ru = "Маркус идет вокруг стола"
+
+[[word]]
+ru = "вопреки "
+de = "wider"
+[[word.ex]]
+de = "Die Frau kämpft wider die Diktatur"
+ru = "Женщина борется против диктатуры"
+[[word.ex]]
+de = "wider Erwarten"
+ru = "вопреки ожиданиям"
+
+[[word]]
+ru = "вдоль"
+de = "entlang"
+[[word.ex]]
+de = "Der Mann geht den Weg entlang"
+ru = "Мужчина идет вдоль дороги"
+
+[[word]]
+ru = "Dativ und Akkusativ über unter an auf vor hinter neben zwischen in"
+de = "используется с  винительным падежом при движении вопрос куда, с дательным падежом при описании вопрос где"
 
 [[word]]
 ru = ""
-de = "freuen"
-syn = ""
+de = "über"
 [[word.ex]]
-de = "das hat mich sehr gefreut"
-ru = ""
+de = "Die Lampe hängt über dem Schreibtisch Dativ"
+ru = "Лампа висит над столом"
 [[word.ex]]
-de = "Ich freue mich sehr auf das Konzert"
-ru = ""
-[[word.ex]]
-de = "Ich bin sehr froh, das "
-ru = ""
-
-[[word]]
-ru = ""
-de = "liben"
-syn = ""
-[[word.ex]]
-de = "Ich liebe Schocolade besonders gern"
-ru = ""
-[[word.ex]]
-de = ""
-ru = ""
-[[word.ex]]
-de = ""
-ru = ""
-
-[[word]]
-ru = "любимый, излюбленный к вещам"
-de = "lieblings"
-syn = ""
-[[word.ex]]
-de = "der Lieblingsfilm"
-ru = ""
-[[word.ex]]
-de = "Der Lieblingsessel"
-ru = ""
-[[word.ex]]
-de = "die Liebliengsspeise"
-ru = "любимое блюдо"
-
-[[word]]
-ru = "подарок"
-de = "das Geschenk"
-syn = ""
-[[word.ex]]
-de = ""
-ru = ""
-[[word.ex]]
-de = ""
-ru = ""
-[[word.ex]]
-de = ""
-ru = ""
-
-[[word]]
-ru = "дарить"
-de = "schenken"
-syn = ""
-[[word.ex]]
-de = ""
-ru = ""
-[[word.ex]]
-de = ""
-ru = ""
-[[word.ex]]
-de = ""
-ru = ""
-
-[word.kon]
-"pres" = ""
-"prat" = ""
-"perfekt" = ""
+de = "Ich hänge die Lampe über den Schreibtisch Akkusativ"
+ru = "Я вешаю лампу над столом"
 
 
 [[word]]
-ru = "праздник"
-de = "die Feier"
-syn = ""
+ru = "под"
+de = "unter"
 [[word.ex]]
-de = ""
-ru = ""
+de = "Ich stehe unter dem Baum Dativ"
+ru = "я стою под деревом"
 [[word.ex]]
-de = ""
-ru = ""
+de = "Die Katze springt unter den Tisch Akkusativ"
+ru = "Кот прыгает под стол"
+
+[[word]]
+ru = "при на у"
+de = "an"
 [[word.ex]]
-de = ""
-ru = ""
+de = "Er sitzt an dem Tisch Dativ"
+ru = "Он сидит за столом"
+[[word.ex]]
+de = "Ich stelle den Schreibtisch ans an das Fenster Akkusativ"
+ru = "Я поставил стол у окна"
+
+[[word]]
+ru = "на наверху"
+de = "auf"
+[[word.ex]]
+de = "Er legt den Brief auf den Tisch Akkusativ"
+ru = "Он положил письмо на стол"
+[[word.ex]]
+de = "Der Brief liegt auf dem Tisch Dativ"
+ru = "Письмо лежит на столе"
+
+[[word]]
+ru = "перед до"
+de = "vor"
+[[word.ex]]
+de = "Sie steht vor dem Theater Dativ"
+ru = "Она стоит перед театром"
+[[word.ex]]
+de = "Ronaldo rannte mit dem Ball vor das Tor Akkusativ"
+ru = "Роналду пробежал с мячом перед воротами"
 
 
 [[word]]
-ru = "праздновать"
-de = "feiern"
-syn = ""
+ru = "за"
+de = "hinter"
 [[word.ex]]
-de = ""
-ru = ""
+de = "Sie läuft hinter das Haus Akkusativ"
+ru = "Она бежит за дом"
 [[word.ex]]
-de = ""
-ru = ""
-[[word.ex]]
-de = ""
-ru = ""
+de = "Hinter dem Sofa steht ein Regal  Dativ"
+ru = "За диваном стоит полка"
 
 
 [[word]]
-ru = ""
-de = ""
-syn = ""
+ru = "около возле"
+de = "neben"
 [[word.ex]]
-de = ""
-ru = ""
+de = "Neben dem Schrank steht ein Regal Dativ"
+ru = "Рядом со шкафом есть полка"
 [[word.ex]]
-de = ""
-ru = ""
+de = "Ich stelle das Regal neben den Schrank Akkusativ"
+ru = "Я поставил полку рядом со шкафом"
+
+[[word]]
+ru = "между"
+de = "zwischen"
 [[word.ex]]
-de = ""
-ru = ""
+de = "Er steht zwischen dem Kino und der Oper  Dativ"
+ru = "Он стоит между кино и оперой"
+[[word.ex]]
+de = "Ich stelle den Sessel zwischen den Schreibtisch und das Regal  Akkusativ"
+ru = "Я поставил стул между столом и полкой"
+
+[[word]]
+ru = "в на"
+de = "in"
+[[word.ex]]
+de = "Ich warte in dem Zimmer. Dativ"
+ru = "Я подожду в комнате"
+[[word.ex]]
+de = "Ich gehe in das Zimmer. Akkusativ"
+ru = "Я иду в комнату"
